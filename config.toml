@@ -1,0 +1,38 @@
+baseURL = "/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+
+title = "BPIManager Docs"
+theme = "hugo-theme-learn"
+themesdir = "./themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = ""
+  themeVariant = "blue"
+  description = "BPIManager Docs"
+  author = "R1muru_Temp3st"
+  showVisitedLinks = false
+  disableBreadcrumb = false
+  disableLandingPageButton = true
+  disableMermaid = true
+  disableLanguageSwitchingButton = true
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = " - "
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.ja]
+title = "BPIManager Docs"
+weight = 1
+languageName = "Japanese"
+landingPageURL = "/ja"
+landingPageName = "<i class='fas fa-home'></i> Home"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
