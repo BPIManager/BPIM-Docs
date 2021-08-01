@@ -12,9 +12,9 @@ BPIManager のご利用に関するご要望やお問い合わせについて、
 下記フォームよりお問い合わせください。  
 ご要望は可能な限り実装しておりますが、技術的成約などによりお応えできない場合もございます。予めご承知おきください。
 
-{{% button href="https://getgrav.org/" %}}機能要望フォーム{{% /button %}}
+{{% button href="https://docs.google.com/forms/d/e/1FAIpQLScoOOBWeytFTF-g3Pfa6TVGYgcvLOQ-pVT8YbOYm6lGww16Mw/viewform?usp=sf_link" %}}機能要望フォーム{{% /button %}}
 
-{{% button href="https://getgrav.org/" %}}不具合報告フォーム{{% /button %}}
+
 
 フォームの形式にそぐわないお問い合わせ、または火急のお問い合わせの場合、メールまたは Twitter の DM によるお問い合わせを承っています。
 下記アドレスまでご相談ください。
