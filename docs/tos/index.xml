@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>各種規約 on BPIManager Docs</title>
+    <link>/tos/</link>
+    <description>Recent content in 各種規約 on BPIManager Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="/tos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>プライバシーポリシー</title>
+      <link>/tos/1privacypolicy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tos/1privacypolicy/</guid>
+      <description>BPIManager をご利用いただいた場合、下記プライバシーポリシーに同意をいただいたものとみなします。
+1. 利用状況調査 利用状況調査のため、本サービスでは Google Analytics を利用しています。
+Google Analytics は Cookie を利用して利用情報を収集します。
+Google Analytics の利用規約は、下記URLよりご確認いただけます。
+https://marketingplatform.google.com/about/analytics/terms/jp/
+2. 広告について 本サービスは Google 及び Google のパートナーが提供する広告を設置しています。
+この広告配信には Cookie が使用されており、過去の Web 閲覧履歴に基づいた広告が配信されています。
+これが不要である場合、 Google アカウントの広告設定ページ（https://adssettings.google.com/u/0/authenticated）からパーソナライズ広告を無効にできます。
+また、 aboutads.info にアクセスしてパーソナライズ広告掲載に使用される第三者配信事業者の Cookie を無効にできます。
+3. reCAPTCHA について Some functions in BPIManager are protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+4. Legal requirements We may disclose Your Personal Data in the good faith belief that such action is necessary to:</description>
+    </item>
+    
+    <item>
+      <title>利用規約</title>
+      <link>/tos/0tos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tos/0tos/</guid>
+      <description>BPIManager をご利用いただいた場合、下記利用規約に同意をいただいたものとみなします。
+1. 免責事項 本ツールにより提供される情報やソフトウェアの不具合によって生じたいかなる損害に対しても、ソフトウェア製作者 ( @R1muru_Temp3st ) は一切責任を負わないものとします。
+2. 禁止事項 本ツールに搭載されたネットワーク機能のご利用につき、下記行為に該当、もしくは抵触する行為を禁止します。
+各項につき悪質な違反があり、かつ是正勧告を行った一定期間後に改善が見られない場合、データの差し替えやユーザー ID の一定期間凍結、その他必要と判断する措置を講ずる権利を留保します。
+ 虚偽または不正確な情報の書き込み。 他の利用者又は第三者を誹謗中傷、脅迫、強要する、もしくはそのおそれがある行為。 第三者の財産、名誉、プライバシー、肖像権を侵害する、もしくはそのおそれがある行為。 営利目的の情報提供、営業活動、布教活動にあたる行為。 他の利用者又は第三者になりすましてサービスを利用する行為。 反社会的活動に類する、もしくは資する行為。 本ツールおよび本ツールの機能を提供するサーバーに意図的に過度な負荷をかける、もしくはそのおそれがある行為。 本ツールの信用を毀損する、もしくはそのおそれがある行為。 法令または公序良俗に反する行為。 その他、管理者が不適切であると判断した行為。  4. データの利用 本ツールを通して蓄積されたユーザーの皆様のプレイデータにつき、本ツールの機能改善のため、匿名化処理を施した上で使用を行う場合があります。
+5. 規約の変更 本規約は、告知なく改廃する場合があります。</description>
+    </item>
+    
+  </channel>
+</rss>

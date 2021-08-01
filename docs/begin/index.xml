@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>はじめての方へ on BPIManager Docs</title>
+    <link>/begin/</link>
+    <description>Recent content in はじめての方へ on BPIManager Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="/begin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BPI とは</title>
+      <link>/begin/aboutbpi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/begin/aboutbpi/</guid>
+      <description>BPIManager (以下 BPIM ) が提供する BPI について、理論をご紹介します。
+BPI とは? BPI とは、norimiso ( @norimisoIIDX ) 氏が提唱された、 beatmania IIDX のスコア力を一般化して評価するための指標です。
+全国歴代 1 位のスコアを 100 、皆伝平均を 0 として、指数関数的にスコアのお上手度を評価します。
+ここで「指数関数的に」と言うのは、歴代スコアに近づくほどスコア更新の難度が上がるという考え方に基づき、BPIが高くなるほどEXスコアにおける1点の重みが増す仕様となっているからです。
+具体例を出すならば、AA(A) を 3000 点から 3010 点まで 10 点伸ばすことより、歴代近傍である 3640 点から 3650 点まで 10 点伸ばすほうが難しい、とイメージいただければ分かりやすいと思います。
+BPI の概念および計算式については、norimiso 氏のWebサイト(外部サイト)が詳しいため、こちらも併せてご確認ください。
+BPI を活用するメリット BPI を活用するメリットとして、複数楽曲間におけるスコアの上手さを平準化できることが挙げられます。
+たとえば、DIAVOLO(A) で BPI 40 として評価される EX スコアは 3072 点で、スコアレートで表すと 88.02% です。
+一方、 AA(A) で BPI40 として評価される EX スコアは 3572 点で、スコアレートで表すと 97.38% です。
+BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 点を出すのと同じくらい上手であることが示されます。</description>
+    </item>
+    
+    <item>
+      <title>BPIM のご利用方法</title>
+      <link>/begin/aboutbpimanager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/begin/aboutbpimanager/</guid>
+      <description>BPIManager (以下 BPIM ) をお使いいただくための手順をご紹介します。
+各機能の詳しい仕様および使用方法については、メニュー「2. 利用マニュアル」をご確認ください。
+ご利用開始 BPIM は Web アプリケーションです。 特別な操作は必要なく、下記 URL にアクセスするだけで直ぐにご利用いただけます。
+https://bpi.poyashi.me ウェブ アプリケーションとしてインストール BPIM は PWA に対応しています。
+お使いのスマートフォンで「ホーム画面に追加」することで、通常のネイティブアプリと同様にご利用いただけます。
+インストール方法は、 BPIM トップページにアクセスした際に表示されます。
+BPIM の一部機能は PWA として動作することを前提に設計されています。
+更新情報 BPIM の更新情報は、Twitterにて随時告知しています。
+@BPIManager
+動作要件  ブラウザのシークレットモードが無効になっていること IndexedDB が利用可能である環境 fetch API が利用可能である環境 画面サイズ：横 360px 以上 iOS 端末では、プッシュ通知など一部機能のご利用が制限されます。 動作確認は Android 9 、 Google Chrome (Windows)、 Firefox (Windows) で実施しています。  各機能の対応状況は下記URLをご確認ください。
+ IndexedDB : https://caniuse.com/indexeddb fetch API : https://caniuse.com/fetch A2HS : https://caniuse.</description>
+    </item>
+    
+    <item>
+      <title>BPIM アカウントの作成</title>
+      <link>/begin/account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/begin/account/</guid>
+      <description>BPIM アカウントを作成いただくと、スコアデータのクラウドへの保存をはじめ、各種追加機能をご利用いただけます。
+2021年7月末現在、のべ 2662 のアカウントが作成されています。
+ぜひともアカウント作成のうえ、 BPIM をご利用ください。
+アカウント作成 BPIM アカウントはソーシャル連携により作成できます。
+BPIM から Sync へアクセスし、連携サービスを選択することでアカウントを作成できます。
+対応している連携サービスは次のとおりです。
+ Twitter Google  BPIM アカウントの追加機能  スコアデータのクラウドへの保存 保存したスコアデータの一般公開 IR(ランキング)の作成および参加  アカウント設定 作成済みの BPIM アカウントに関する設定は、 BPIM 上で行います。 BPIM から Sync へアクセスしてください。
+アカウント設定に関するマニュアルは、こちらのページをご参照ください。
+アカウントの削除 BPIM アカウントの削除は、お問い合わせにより受け付けております。
+お問い合わせ先に関する情報は、こちらのページをご参照ください。</description>
+    </item>
+    
+  </channel>
+</rss>

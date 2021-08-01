@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>実力管理 on BPIManager Docs</title>
+    <link>/docs/manage/</link>
+    <description>Recent content in 実力管理 on BPIManager Docs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language><atom:link href="/docs/manage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>スコアを比較する</title>
+      <link>/docs/manage/compare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/manage/compare/</guid>
+      <description>「スコア比較」機能を利用して、過去作の自己ベストやベンチマークとするBPIまたはスコアレートとスコアを比較することができます。
+ 比較元 : 比較元とするデータセットを選択します。デフォルトでは設定中のスコア保存先となります。 比較先 : データ比較の対象とするデータセットを選択します。デフォルトでは設定中のスコア保存先の 1 つ前のバージョンとなります。 表示形式 : スコア比較の方式を EX スコア、スコアレート、 BPI の 3 種類から選択します。 並べ替え : スコア比較結果のテーブルを並び替える条件を指定します。 昇降順 : 上記「並べ替え」で選択した条件の昇降順を設定します。 レベル、難易度、表示対象 : テーブルに表示する楽曲をフィルタします。表示対象では、「+」にチェックを入れると比較元スコアが比較先スコアに勝っているものを、「-」では敗北しているスコアを表示します。  比較先データセット スコアの比較先として、過去作データセット以外にも幾つかのオプションをご利用いただけます。
+ TARGET BPI : 「設定」より目標 BPI を設定した場合、こちらの BPI 値を EX スコアに換算し比較先データセットを作成します。 TARGET PERCENTRAGE : 「設定」より目標スコアレートを設定した場合、こちらのスコアレート値を EX スコアに換算し比較先データセットを作成します。 WORLD RECORD : 各楽曲の全1スコアを比較先データセットとして利用します。 KAIDEN AVERAGE : 各楽曲の皆伝平均を比較先データセットとして利用します。  </description>
+    </item>
+    
+    <item>
+      <title>統計を表示</title>
+      <link>/docs/manage/stats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/manage/stats/</guid>
+      <description>BPI や EX スコアを各側面から分析するための機能です。
+「基本」「レーダー」「推移」「分布」「自己歴代」の 5 タブから構成されます。
+基本 総合 BPI や DJ ランクなど、基本的な分析を表示します。
+画面右上の「表示対象」から統計を表示する難易度を選択します。
+総合 BPI BPI の定義に基づき、単曲 BPI の二乗平均平方根で算出されます。
+推定順位の算出方法についても同様に、 BPI の定義に依拠しています。
+BPI 分布 単曲 BPI の度数分布を表しています。
+グラフ中の縦実線は総合 BPI の位置を表しています。
+BPM 帯別総合 BPI BPM 帯ごとの単曲 BPI の度数分布を表しています。
+SOF とはソフランを含む楽曲を示しています。
+BPM 帯別総合 BPIにおける総合 BPI の算出式は、上記総合 BPI と同一です。
+DJ ランク・クリアタイプ 各楽曲の DJ ランクおよびクリアタイプを円グラフで表します。
+レーダー beatmania IIDX のプレイスキルにおける代表的な要素ごとに代表楽曲を選出し、それぞれについて総合 BPI を算出したものがレーダーです。
+対象楽曲 2021/7/30 時点における、各要素の対象楽曲は次のとおりです。
+   ターゲット 集計対象     NOTES B4U(BEMANI FOR YOU MIX)(L)</description>
+    </item>
+    
+    <item>
+      <title>AAA達成表</title>
+      <link>/docs/manage/aaa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/manage/aaa/</guid>
+      <description>AAA 達成表は、各楽曲の BPI を、 AAA+0 における BPI との差において色分け表示し、色の濃淡でスコア達成度合いを可視化する機能です。
+また、楽曲は AAA 達成時点における BPI が高い順に表示されるため、 AAA 達成難易度表としてもご活用いただけます。
+見かた 色が赤いほどスコアが低く、青いほどスコアが高いことを示しています。
+もうすぐで AAA を達成できそうな楽曲は黄色でハイライトされます。
+各楽曲の下に表示されている数値は、左側がAAA+0におけるBPIを、右側が現在の登録スコアにおけるBPIを表しています。
+全国1位スコアを保持している楽曲については、楽曲名が光って表示されます。
+表示内容の設定 画面右下のボタンより、 AAA 達成表に表示する内容を編集できます。
+ 表示対象 : ☆12と☆11のいずれの AAA 達成表を表示するか選択します。  </description>
+    </item>
+    
+  </channel>
+</rss>
