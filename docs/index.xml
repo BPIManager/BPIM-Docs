@@ -133,8 +133,12 @@ https://bpi.poyashi.me ウェブ アプリケーションとしてインスト�
 BPIM の一部機能は PWA として動作することを前提に設計されています。
 更新情報 BPIM の更新情報は、Twitterにて随時告知しています。
 @BPIManager
-動作要件  ブラウザのシークレットモードが無効になっていること IndexedDB が利用可能である環境 fetch API が利用可能である環境 画面サイズ：横 360px 以上 iOS 端末では、プッシュ通知など一部機能のご利用が制限されます。 動作確認は Android 9 、 Google Chrome (Windows)、 Firefox (Windows) で実施しています。  各機能の対応状況は下記URLをご確認ください。
- IndexedDB : https://caniuse.com/indexeddb fetch API : https://caniuse.com/fetch A2HS : https://caniuse.</description>
+動作要件   ブラウザのシークレットモードが無効になっていること
+  IndexedDB が利用可能である環境
+  fetch API が利用可能である環境
+  画面サイズ：横 360px 以上
+  動作確認は Google Chrome (Windows , Android 9)、 Firefox (Windows) で実施しています。
+  一部機能は Firefox 、 Samsung Internet および Safari Mobile for iOS における動作が制限されます</description>
     </item>
     
     <item>

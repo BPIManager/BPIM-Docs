@@ -33,11 +33,22 @@ BPIM の更新情報は、Twitterにて随時告知しています。
 ### 動作要件
 
 - ブラウザのシークレットモードが無効になっていること
+
 - IndexedDB が利用可能である環境
+
 - fetch API が利用可能である環境
+
 - 画面サイズ：横 360px 以上
-- iOS 端末では、プッシュ通知など一部機能のご利用が制限されます。
-- 動作確認は Android 9 、 Google Chrome (Windows)、 Firefox (Windows) で実施しています。
+
+- 動作確認は Google Chrome (Windows , Android 9)、 Firefox (Windows) で実施しています。
+
+- **一部機能は Firefox 、 Samsung Internet および Safari Mobile for iOS における動作が制限されます**
+
+  - Firefox および Samsung Internet では、データ取り込み時のクリップボード読み取り機能がお使いいただけません。
+
+    取り込み画面テキストボックスに CSV または JSON をペーストし取り込んでください。
+
+  - Safari Mobile for iOS では、プッシュ通知によるライバルのスコア更新通知がご利用いただけません。
 
 各機能の対応状況は下記URLをご確認ください。
 
