@@ -20,7 +20,7 @@ beatmania IIDX 公式サイト上で BPIM 用ブックマークレットを実�
 ## 手順
 
 ```javascript
-javascript:(function() { javascript: (function(d, s) { s = d.createElement('script'); s.src = 'https://files.poyashi.me/bpim/index.js?v=' + Number(Math.floor(Math.random() * 10000000)); d.body.appendChild(s); })(document) })();
+javascript:(function() { javascript: (function(d, s) { s = d.createElement('script'); s.src = 'https://files.poyashi.me/bpim/index.js?v=' + String(Math.floor(Math.random() * 10000000)); d.body.appendChild(s); })(document) })();
 ```
 
 1. 上記ブックマークレットをお使いのブラウザに登録します。
