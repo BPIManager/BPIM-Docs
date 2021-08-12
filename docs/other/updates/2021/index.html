@@ -14,25 +14,25 @@ a{
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>BPI とは  -  BPIManager Docs</title>
+    <title>2021年8月  -  BPIManager Docs</title>
 
     
-    <link href="/css/nucleus.css?1628749211" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1628749211" rel="stylesheet">
-    <link href="/css/hybrid.css?1628749211" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1628749211" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1628749211" rel="stylesheet">
-    <link href="/css/auto-complete.css?1628749211" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1628749211" rel="stylesheet">
-    <link href="/css/theme.css?1628749211" rel="stylesheet">
-    <link href="/css/tabs.css?1628749211" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1628749211" rel="stylesheet">
+    <link href="/css/nucleus.css?1628749085" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1628749085" rel="stylesheet">
+    <link href="/css/hybrid.css?1628749085" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1628749085" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1628749085" rel="stylesheet">
+    <link href="/css/auto-complete.css?1628749085" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1628749085" rel="stylesheet">
+    <link href="/css/theme.css?1628749085" rel="stylesheet">
+    <link href="/css/tabs.css?1628749085" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1628749085" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1628749211" rel="stylesheet">
+    <link href="/css/theme-blue.css?1628749085" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1628749211"></script>
+    <script src="/js/jquery-3.3.1.min.js?1628749085"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42,7 +42,7 @@ a{
     </style>
     
   </head>
-  <body class="" data-url="/begin/aboutbpi/">
+  <body class="" data-url="/other/updates/202008/">
     <nav id="sidebar" class="">
 
 
@@ -62,14 +62,14 @@ a{
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1628749211"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1628749211"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1628749085"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1628749085"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1628749211"></script>
+<script type="text/javascript" src="/js/search.js?1628749085"></script>
 
     
   </div>
@@ -89,7 +89,7 @@ a{
   
     
     <li data-nav-id="/begin/" title="はじめての方へ" class="dd-item
-        parent
+        
         
         
         ">
@@ -115,7 +115,7 @@ a{
  
   
     
-      <li data-nav-id="/begin/aboutbpi/" title="BPI とは" class="dd-item active">
+      <li data-nav-id="/begin/aboutbpi/" title="BPI とは" class="dd-item ">
         <a href="/begin/aboutbpi/">
         BPI とは
         
@@ -781,7 +781,7 @@ a{
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -810,7 +810,7 @@ a{
   
     
     <li data-nav-id="/other/updates/" title="アップデート" class="dd-item
-        
+        parent
         
         
         ">
@@ -839,8 +839,8 @@ a{
   
     
     <li data-nav-id="/other/updates/202008/" title="2021年8月" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/other/updates/202008/">
@@ -963,7 +963,13 @@ a{
             
           
           
-            <a href='/'>Home</a> > <a href='/begin/'>はじめての方へ</a> > BPI とは
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > <a href='/other/updates/'>アップデート</a> > 2021年8月
+          
+        
           
         
           
@@ -978,9 +984,11 @@ a{
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#bpi-とは">BPI とは?</a></li>
-    <li><a href="#bpi-を活用するメリット">BPI を活用するメリット</a></li>
-    <li><a href="#bpim-における-bpi-改変">BPIM における BPI 改変</a></li>
+    <li>
+      <ul>
+        <li><a href="#20210812">2021/08/12</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -998,60 +1006,40 @@ a{
           
             <h1>
               
-              BPI とは
+              2021年8月
             </h1>
           
 
         
 
 
-<p>BPIManager (以下 BPIM ) が提供する BPI について、理論をご紹介します。</p>
-<h2 id="bpi-とは">BPI とは?</h2>
-<p>BPI とは、norimiso ( <a href="https://twitter.com/norimisoIIDX">@norimisoIIDX</a> ) 氏が提唱された、 beatmania IIDX のスコア力を一般化して評価するための指標です。</p>
-<p><strong>全国歴代 1 位のスコアを 100 、皆伝平均を 0</strong> として、指数関数的にスコアのお上手度を評価します。<br>
-ここで「指数関数的に」と言うのは、歴代スコアに近づくほどスコア更新の難度が上がるという考え方に基づき、BPIが高くなるほどEXスコアにおける1点の重みが増す仕様となっているからです。<br>
-具体例を出すならば、AA(A) を 3000 点から 3010 点まで 10 点伸ばすことより、歴代近傍である 3640 点から 3650 点まで 10 点伸ばすほうが難しい、とイメージいただければ分かりやすいと思います。</p>
-<p>BPI の概念および計算式については、<a href="http://norimiso.web.fc2.com/aboutBPI.html">norimiso 氏のWebサイト(外部サイト)</a>が詳しいため、こちらも併せてご確認ください。</p>
-<h2 id="bpi-を活用するメリット">BPI を活用するメリット</h2>
-<p>BPI を活用するメリットとして、<strong>複数楽曲間におけるスコアの上手さを平準化できる</strong>ことが挙げられます。</p>
-<p>たとえば、DIAVOLO(A) で BPI 40 として評価される EX スコアは 3072 点で、スコアレートで表すと 88.02% です。<br>
-一方、 AA(A) で BPI40 として評価される EX スコアは 3572 点で、スコアレートで表すと 97.38% です。<br>
-BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 点を出すのと同じくらい上手であることが示されます。<br>
-スコアレートではこれら 2 つのスコア間には大きな隔たりがありますが、ご存知の通り DIAVOLO(A) はスコアを出すことが難しい一方で AA(A) はそうではなく、ユーザーの感覚に近いものになっていることでしょう。</p>
-<p>この考え方を逆手に取れば、 AA(A) で 3572 点を出す実力がある人は、理論上 DIAVOLO(A) で 3072 点を出す可能性があるとも言えます（実際は得意な譜面傾向により左右されるでしょうが）。<br>
-このように、ある楽曲で達成したスコアと同じ水準のスコアを別楽曲で算出しリコメンドできるのも、 BPI ならではの強みです。</p>
-<p>※上記例における算出 BPI は 2021/7/28 時点におけるものです。</p>
-<h2 id="bpim-における-bpi-改変">BPIM における BPI 改変</h2>
-<p>BPIM においては、上述した本来の BPI の定義に独自の改変を加えたものを仕様としています。</p>
-<p>この改変については、<a href="https://gist.github.com/potakusan/30004f4c05e6887399e779afe0fac4e6">こちらのページ</a>に経緯などを記載しています。<br>
-こちらの改変を行うことにより、（参考）図のように、算出される BPI と実際のランキングにおける分布の乖離を是正することを目指しています。</p>
-<p>この改変は IIDX 公式サイトより取得した IIDX プレイヤーのスコアを参考としたものですが、以下のような問題点を抱えています。</p>
+
+	<h3 id="20210812">2021/08/12</h3>
+<h4 id="定義ファイル-v20210812">[定義ファイル] v20210812</h4>
+<p>新曲を BPI 非算出曲として追加しました。</p>
 <ul>
-<li>適正段位を取得していないプレイヤーが（特に上位層において）顕著である</li>
-<li>IIDX 公式サイトにてスコアを非公開としているプレイヤーについて、統計処理に組み込めていない</li>
-<li>BPI の原義である「 BPI 50 の人と、 30 の人と 10 の人の間にある上手さの差は同じである」ことを表す指標として疑義が生じる</li>
+<li>STEEL NEEDLE[L]</li>
+<li>ΕΛΠΙΣ[L]</li>
+<li>Chronos[L]</li>
+<li>Ignis†Irae[A]</li>
+<li>Jungle Eater[A]</li>
+<li>Parvati[A]</li>
+<li>Rosa azuL[A]</li>
+<li>Sinus Iridum[H]</li>
+<li>Sinus Iridum[A]</li>
+<li>Tell me what you wish feat.らっぷびと[A]</li>
+<li>二人ノ廃城幽踊宴[A]</li>
+<li>伐折羅-vajra-[A]</li>
+<li>無意識のフィロソフィア[A]</li>
 </ul>
-<p>これらの問題により BPIM が理想とする BPI の算出には至っておりませんが、今後もユーザーの皆様の意見を踏まえて適宜定義式を更新してまいります。</p>
-<p>（参考、x 軸 : EX スコア、y 軸 : BPI）</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">p = 1.5</th>
-<th style="text-align:center">p = 1.175</th>
-<th style="text-align:center">BPIM における現定義</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/1.5/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/1.175/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/new/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-</tr>
-</tbody>
-</table>
+<p>一部楽曲は IIDX 筐体上の表記と登録名が異なります。 BPIM における表記は公式 CSV に準じます。<br>
+これらの楽曲の BPI 算出への対応は、新作稼働1~2週間前を目処として実施予定です。</p>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -1086,6 +1074,8 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -1099,7 +1089,6 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
             
                 
-                    
                     
                 
                 
@@ -1116,9 +1105,6 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1193,70 +1179,6 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -1434,22 +1356,6 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1466,8 +1372,18 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
                     
 
                     
+                        
             
-        
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -1484,6 +1400,9 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
                     
                     
 
+                    
+            
+        
                     
                         
             
@@ -1536,20 +1455,8 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
         
                     
-                        
             
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
+        
                     
                         
             
@@ -1561,10 +1468,24 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
 
                     
                     
+                    
+
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
                     
                     
 
+                    
+            
+        
                     
                         
             
@@ -1589,6 +1510,77 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
             
             
                 
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -1629,10 +1621,10 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
 	 
 	 
 		
-			<a class="nav nav-prev" href="/begin/" title="はじめての方へ"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/" title="アップデート"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/begin/aboutbpimanager/" title="BPIM のご利用方法" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/credits/" title="クレジット" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1642,16 +1634,16 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1628749211"></script>
-    <script src="/js/perfect-scrollbar.min.js?1628749211"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1628749211"></script>
-    <script src="/js/jquery.sticky.js?1628749211"></script>
-    <script src="/js/featherlight.min.js?1628749211"></script>
-    <script src="/js/highlight.pack.js?1628749211"></script>
+    <script src="/js/clipboard.min.js?1628749085"></script>
+    <script src="/js/perfect-scrollbar.min.js?1628749085"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1628749085"></script>
+    <script src="/js/jquery.sticky.js?1628749085"></script>
+    <script src="/js/featherlight.min.js?1628749085"></script>
+    <script src="/js/highlight.pack.js?1628749085"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1628749211"></script>
-    <script src="/js/learn.js?1628749211"></script>
-    <script src="/js/hugo-learn.js?1628749211"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1628749085"></script>
+    <script src="/js/learn.js?1628749085"></script>
+    <script src="/js/hugo-learn.js?1628749085"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -1665,4 +1657,3 @@ BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 
 </script>
   </body>
 </html>
-
