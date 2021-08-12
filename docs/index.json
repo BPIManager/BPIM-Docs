@@ -189,11 +189,25 @@
 	"content": "BPIManager のご利用に関するご要望やお問い合わせについて、連絡先を記載しています。\n機能の要望・不具合報告 下記フォームよりお問い合わせください。\nご要望は可能な限り実装しておりますが、技術的成約などによりお応えできない場合もございます。予めご承知おきください。\n機能要望フォーム\r\rフォームの形式にそぐわないお問い合わせ、または火急のお問い合わせの場合、メールまたは Twitter の DM によるお問い合わせを承っています。 下記アドレスまでご相談ください。\nメール : msqkn310@gmail.com\nTwitter : @BPIManager\n不正利用の報告 ご自身のアカウントが不正に利用されている、または利用規約に違反する他人のアカウントを発見した場合、メールまたは Twitter の DM でお問い合わせください。\nメール : msqkn310@gmail.com\nTwitter : @BPIManager\nアカウントの停止・削除 BPIM アカウントの削除または停止をご希望の場合、メールまたは Twitter の DM でお問い合わせください。\nメール : msqkn310@gmail.com\nTwitter : @BPIManager\n"
 },
 {
+	"uri": "/other/updates/",
+	"title": "アップデート",
+	"tags": [],
+	"description": "",
+	"content": "開発情報 2021 年 8 月以降の BPIM のアップデート情報を掲載しています。\n"
+},
+{
 	"uri": "/other/",
 	"title": "開発情報",
 	"tags": [],
 	"description": "",
 	"content": "開発情報 BPIManager の開発に関する事項を掲載しています。\nクレジット 関連リポジトリ "
+},
+{
+	"uri": "/other/updates/202008/",
+	"title": "2021年8月",
+	"tags": [],
+	"description": "",
+	"content": "2021/08/12 [定義ファイル] v20210812 新曲を BPI 非算出曲として追加しました。\n STEEL NEEDLE[L] ΕΛΠΙΣ[L] Chronos[L] Ignis†Irae[A] Jungle Eater[A] Parvati[A] Rosa azuL[A] Sinus Iridum[H] Sinus Iridum[A] Tell me what you wish feat.らっぷびと[A] 二人ノ廃城幽踊宴[A] 伐折羅-vajra-[A] 無意識のフィロソフィア[A]  一部楽曲は IIDX 筐体上の表記と登録名が異なります。 BPIM における表記は公式 CSV に準じます。\nこれらの楽曲の BPI 算出への対応は、新作稼働1~2週間前を目処として実施予定です。\n"
 },
 {
 	"uri": "/categories/",
