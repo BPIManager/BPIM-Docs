@@ -14,7 +14,7 @@ a{
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>利用規約  -  BPIManager Docs</title>
+    <title>定義ファイルの記述  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1630501309" rel="stylesheet">
@@ -42,7 +42,7 @@ a{
     </style>
     
   </head>
-  <body class="" data-url="/tos/0tos/">
+  <body class="" data-url="/other/def/">
     <nav id="sidebar" class="">
 
 
@@ -681,7 +681,7 @@ a{
   
     
     <li data-nav-id="/tos/" title="各種規約" class="dd-item
-        parent
+        
         
         
         ">
@@ -728,7 +728,7 @@ a{
  
   
     
-      <li data-nav-id="/tos/0tos/" title="利用規約" class="dd-item active">
+      <li data-nav-id="/tos/0tos/" title="利用規約" class="dd-item ">
         <a href="/tos/0tos/">
         利用規約
         
@@ -781,7 +781,7 @@ a{
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -894,7 +894,7 @@ a{
  
   
     
-      <li data-nav-id="/other/def/" title="定義ファイルの記述" class="dd-item ">
+      <li data-nav-id="/other/def/" title="定義ファイルの記述" class="dd-item active">
         <a href="/other/def/">
         定義ファイルの記述
         
@@ -984,7 +984,7 @@ a{
             
           
           
-            <a href='/'>Home</a> > <a href='/tos/'>各種規約</a> > 利用規約
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > 定義ファイルの記述
           
         
           
@@ -999,14 +999,23 @@ a{
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#定義ファイルの仕様について">定義ファイルの仕様について</a>
       <ul>
-        <li><a href="#1-免責事項">1. 免責事項</a></li>
-        <li><a href="#2-禁止事項">2. 禁止事項</a></li>
-        <li><a href="#4-データの利用">4. データの利用</a></li>
-        <li><a href="#5-規約の変更">5. 規約の変更</a></li>
+        <li><a href="#公式定義ファイル">公式定義ファイル</a></li>
+        <li><a href="#仕組み">仕組み</a></li>
+        <li><a href="#型について">型について</a></li>
+        <li><a href="#楽曲難易度">楽曲難易度</a></li>
+        <li><a href="#メタデータ">メタデータ</a></li>
+        <li><a href="#removed-キーについて">removed キーについて</a></li>
       </ul>
     </li>
+    <li><a href="#カスタム定義ファイルの登録">カスタム定義ファイルの登録</a>
+      <ul>
+        <li><a href="#設定">設定</a></li>
+        <li><a href="#制限">制限</a></li>
+      </ul>
+    </li>
+    <li><a href="#その他">その他</a></li>
   </ul>
 </nav>
     </div>
@@ -1024,35 +1033,203 @@ a{
           
             <h1>
               
-              利用規約
+              定義ファイルの記述
             </h1>
           
 
         
 
 
-<p>BPIManager をご利用いただいた場合、下記利用規約に同意をいただいたものとみなします。</p>
-<h3 id="1-免責事項">1. 免責事項</h3>
-<p>本ツールにより提供される情報やソフトウェアの不具合によって生じたいかなる損害に対しても、ソフトウェア製作者 ( @R1muru_Temp3st ) は一切責任を負わないものとします。</p>
-<h3 id="2-禁止事項">2. 禁止事項</h3>
-<p>本ツールに搭載されたネットワーク機能のご利用につき、下記行為に該当、もしくは抵触する行為を禁止します。<br>
-各項につき悪質な違反があり、かつ是正勧告を行った一定期間後に改善が見られない場合、データの差し替えやユーザー ID の一定期間凍結、その他必要と判断する措置を講ずる権利を留保します。</p>
-<ul>
-<li>虚偽または不正確な情報の書き込み。</li>
-<li>他の利用者又は第三者を誹謗中傷、脅迫、強要する、もしくはそのおそれがある行為。</li>
-<li>第三者の財産、名誉、プライバシー、肖像権を侵害する、もしくはそのおそれがある行為。</li>
-<li>営利目的の情報提供、営業活動、布教活動にあたる行為。</li>
-<li>他の利用者又は第三者になりすましてサービスを利用する行為。</li>
-<li>反社会的活動に類する、もしくは資する行為。</li>
-<li>本ツールおよび本ツールの機能を提供するサーバーに意図的に過度な負荷をかける、もしくはそのおそれがある行為。</li>
-<li>本ツールの信用を毀損する、もしくはそのおそれがある行為。</li>
-<li>法令または公序良俗に反する行為。</li>
-<li>その他、管理者が不適切であると判断した行為。</li>
-</ul>
-<h3 id="4-データの利用">4. データの利用</h3>
-<p>本ツールを通して蓄積されたユーザーの皆様のプレイデータにつき、本ツールの機能改善のため、匿名化処理を施した上で使用を行う場合があります。</p>
-<h3 id="5-規約の変更">5. 規約の変更</h3>
-<p>本規約は、告知なく改廃する場合があります。</p>
+<p>BPIM では、カスタム定義ファイルを作成しアプリケーション上で利用できます。</p>
+<h2 id="定義ファイルの仕様について">定義ファイルの仕様について</h2>
+<p>BPIM では楽曲に関する一連のデータを定義ファイルと称するファイルにまとめて公開しています。<br>
+このファイルはJSONで記述されています。</p>
+<h3 id="公式定義ファイル">公式定義ファイル</h3>
+<p>BPIM が公式で用意している定義ファイルは、下記 URL から確認できます。</p>
+<p><a href="https://proxy.poyashi.me/?type=bpi">https://proxy.poyashi.me/?type=bpi</a></p>
+<p>リポジトリ : <a href="https://github.com/potakusan/bpim-score-repo">https://github.com/potakusan/bpim-score-repo</a></p>
+<h3 id="仕組み">仕組み</h3>
+<p>JSONの仕組みは次のようになっています。</p>
+<pre><code>{
+  &quot;version&quot;:&quot;20191109&quot;, //定義データのバージョン名
+  &quot;requireVersion&quot;:&quot;8&quot;, //要求するBPIManager本体のバージョン(例:v0.0.0.8ならば8,v0.0.2.0ならば20)
+  &quot;body&quot;:[
+	{  
+      &quot;title&quot;: &quot;(This Is Not) The Angels&quot;, //楽曲名
+      &quot;difficulty&quot;: &quot;4&quot;, //楽曲難易度(詳細は下)
+      &quot;wr&quot;: &quot;2716&quot;, //歴代1位
+      &quot;avg&quot;: &quot;2398&quot;, //皆伝平均
+      &quot;notes&quot;: &quot;1364&quot;, //ノート数
+      &quot;bpm&quot;: &quot;33-130&quot;, //BPM
+      &quot;textage&quot;: &quot;24/theangel.html?1AB00&quot;, //TexTageのURL
+      &quot;difficultyLevel&quot;: &quot;11&quot;, //楽曲難易度(詳細は下)
+      &quot;dpLevel&quot;: &quot;0&quot;, //DP非公式難易度
+      &quot;coef&quot;: -1, //譜面係数
+	},...
+  ]
+}
+</code></pre>
+<h3 id="型について">型について</h3>
+<p>JSONに記述する定義データの型は次のようにします。</p>
+<table>
+<thead>
+<tr>
+<th>キー</th>
+<th>バリュー</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>String</td>
+<td>楽曲名</td>
+</tr>
+<tr>
+<td>difficulty</td>
+<td>&ldquo;3&rdquo;|&ldquo;4&rdquo;|&ldquo;8&rdquo;|&ldquo;9&rdquo;|&ldquo;10&rdquo;|&ldquo;11&rdquo;</td>
+<td>楽曲難易度(下記参照)</td>
+</tr>
+<tr>
+<td>difficultyLevel</td>
+<td>&ldquo;11&rdquo;|&ldquo;12&rdquo;</td>
+<td>ゲーム内楽曲難易度</td>
+</tr>
+<tr>
+<td>wr</td>
+<td>String|Number</td>
+<td>全1スコア</td>
+</tr>
+<tr>
+<td>avg</td>
+<td>String|Number</td>
+<td>皆伝平均</td>
+</tr>
+<tr>
+<td>notes</td>
+<td>String|Number</td>
+<td>楽曲総ノート数</td>
+</tr>
+<tr>
+<td>bpm</td>
+<td>String</td>
+<td>BPM<br />(ソフランする場合は最小BPMと最大BPMを半角ハイフンで区切って入力。例:33-130)</td>
+</tr>
+<tr>
+<td>textage</td>
+<td>String</td>
+<td>TexTageのURL</td>
+</tr>
+<tr>
+<td>dpLevel</td>
+<td>String</td>
+<td>DP非公式難易度<br />SP譜面の場合必ず0<br />DP譜面の場合は必ず0以外を入力</td>
+</tr>
+<tr>
+<td>coef</td>
+<td>Number</td>
+<td>譜面係数<br />未設定の場合は-1とする</td>
+</tr>
+<tr>
+<td>removed</td>
+<td>?Boolean</td>
+<td>削除曲の場合はtrue<br />それ以外の場合はキーを含めない(後述)</td>
+</tr>
+</tbody>
+</table>
+
+<div class="notices note" ><p>&ldquo;wr&rdquo;,&ldquo;avg&rdquo;,&ldquo;notes&quot;はデータベースに登録される際、Number型にキャストされます。</p>
+</div>
+
+<h3 id="楽曲難易度">楽曲難易度</h3>
+<p>楽曲難易度はdifficultyおよびdifficultyLevelの2つが必要です。<br>
+difficultyではいわゆるHYPER,ANOTHER,LEGGENDARIAを識別し、difficultyLevelでは☆換算の難易度を識別します。<br>
+difficultyの対応表は次のようになります。</p>
+<table>
+<thead>
+<tr>
+<th>難易度</th>
+<th>SP</th>
+<th>DP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HYPER</td>
+<td>3</td>
+<td>8</td>
+</tr>
+<tr>
+<td>ANOTHER</td>
+<td>4</td>
+<td>9</td>
+</tr>
+<tr>
+<td>LEGGENDARIA</td>
+<td>10</td>
+<td>11</td>
+</tr>
+</tbody>
+</table>
+<p>difficultyLevelには11または12を指定してください。<br>
+すなわち、実際には☆10の楽曲であっても、便宜上☆11または☆12として登録する必要があるということです。</p>
+<h3 id="メタデータ">メタデータ</h3>
+<p>定義ファイルのメタデータとして、version および requireVersion を指定します。</p>
+<p>version には任意のバージョン名を入力します。<br>
+BPIM では読み込み済みの定義データバージョン名と異なるバージョン名の定義ファイルをフェッチした際にデータをアップデートします。</p>
+<p>requireVersion には BPIM 本体の要求バージョンを入力します。<br>
+古いバージョンの BPIM では一部の機能に対応していない場合があります (DP 譜面や譜面係数など)。<br>
+そのため、一般的に requireVersion は最新の BPIM のバージョンを指定することが望ましいでしょう。</p>
+<p>最新の BPIM バージョンは、<a href="https://proxy.poyashi.me/?type=bpiVersion">こちらのファイル</a>の requireVersion から確認できます。</p>
+<h3 id="removed-キーについて">removed キーについて</h3>
+<p>端末に登録済みの楽曲について、楽曲データベースから削除したい場合、楽曲オブジェクトに &ldquo;removed&rdquo; キーを含めます。<br>
+removed キーの型は Boolean が予定されますが、型チェックはしていません。
+このキーが存在していれば無条件で楽曲データが削除されます。</p>
+<p>リストから楽曲を削除しない場合は removed : false とするのではなく、<strong>絶対に removed キーを追加しないでください</strong>。</p>
+<p>removed キーが新たに認識された際、 BPIM は楽曲データとともに、その楽曲に紐付けられたスコアデータおよびスコアログデータが削除します。</p>
+<h2 id="カスタム定義ファイルの登録">カスタム定義ファイルの登録</h2>
+<h3 id="設定">設定</h3>
+<p>カスタム定義ファイルを BPIM に読み込むには、定義ファイル URL の設定が必要です。</p>
+<p>BPIM の「設定」から「定義ファイルURLを変更する」をクリックし、カスタム定義ファイルの URL を入力してください。</p>
+<h3 id="制限">制限</h3>
+<p>BPIM からカスタムされた定義ファイルを読み込むためには、セキュリティの制約から一定の条件を満たす必要があります。</p>
+<p>fetch APIを用いて定義ファイルを取り込んでいるため、CORSを許可する必要があります。</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Access-Control-Allow-Origin</td>
+<td>bpi.poyashi.me</td>
+</tr>
+<tr>
+<td>Access-Control-Allow-Methods</td>
+<td>GET,OPTIONS</td>
+</tr>
+</tbody>
+</table>
+<p>以下に、 nginx サーバーにおける設定例を示します。</p>
+<pre><code>server {
+	location / {
+		if ($request_method = 'OPTIONS') {
+			add_header 'Access-Control-Allow-Origin' 'https://bpi.poyashi.me';
+			add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+			add_header 'Content-Length' 0;
+			return 204;
+		}
+		if ($request_method = 'GET') {
+			add_header 'Access-Control-Allow-Origin' 'https://bpi.poyashi.me';
+			add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS';
+		}
+	}
+}
+</code></pre><h2 id="その他">その他</h2>
+<p>すでに登録されている楽曲データとの混合を避けるため、定義ファイルURLを変更する前に楽曲データベースをリセットすることを推奨します。<br>
+(設定-&gt;データリセット-&gt;Songs Database)</p>
 
 
 <footer class="footline">
@@ -1479,7 +1656,6 @@ a{
             
                 
                     
-                    
                 
                 
 
@@ -1493,8 +1669,40 @@ a{
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
                         
+            
+            
+                
                     
                 
                 
@@ -1518,44 +1726,6 @@ a{
 
                     
                     
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
                         
                     
                     
@@ -1565,6 +1735,9 @@ a{
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1616,6 +1789,7 @@ a{
             
                 
                     
+                    
                 
                 
 
@@ -1631,6 +1805,9 @@ a{
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1655,10 +1832,10 @@ a{
 	 
 	 
 		
-			<a class="nav nav-prev" href="/tos/1privacypolicy/" title="プライバシーポリシー"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/credits/" title="クレジット"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/contact/" title="お問い合わせ" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/repositories/" title="関連リポジトリ" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

@@ -14,3 +14,5 @@ BPIManager の開発に関する事項を掲載しています。
 #### [クレジット](/other/credits/)
 
 #### [関連リポジトリ](/other/repositories/)
+
+#### [定義ファイルの記述](/other/def/)
