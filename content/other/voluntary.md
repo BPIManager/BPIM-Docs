@@ -10,7 +10,7 @@ BPIManager で利用する皆伝平均・全国 1 位データの取得にご協
 
 {{% notice note %}}
 現在、募集しております。  
-ご協力をご検討くださる場合、お手数ですが[@BPIManager](https://twitter.com/BPIManager)までご連絡ください。
+ご協力をご検討くださる場合、お手数ですが[@BPIManager](https://twitter.com/BPIManager)までDMにてご連絡ください。
 {{% /notice %}}
 
 ### 募集内容
