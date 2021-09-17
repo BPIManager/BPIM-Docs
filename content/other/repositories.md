@@ -5,29 +5,35 @@ title: 関連リポジトリ
 BPIManager で使用しているデータおよびマイクロサービスに関する情報を公開しています。  
 これらにつき、ソフトウェア開発者は「各種規約」>「利用規約」に違反しない範囲における自由な利用を許諾します。
 
-### bpimanager
+### BPIManager-Core
 
-https://github.com/potakusan/bpimanager
+[https://github.com/BPIManager/BPIManager-Core](https://github.com/BPIManager/BPIManager-Core)
 
 BPIManager のフロントエンド部分です。
 
-### bpim-score-repo
+### BPIM-Scores
 
-https://github.com/potakusan/bpim-score-repo
+[https://github.com/BPIManager/BPIM-Scores](https://github.com/BPIManager/BPIM-Scores)
 
 BPIM で BPI の算出に用いている皆伝平均及び全国一位データが記載されたファイル群です。
 
-### bpim-wrgetter
+### bpim-wrgetter (deprecated)
 
 https://github.com/potakusan/bpim-wrgetter
 
 BPIM の定義ファイルと IIDX 公式サイトの全1データを比較し、更新がある場合に定義ファイルを更新するためのスクリプトです。
 
-### bpimanager-docs
+### BPIM-Docs
 
-https://github.com/potakusan/bpimanager-docs
+[https://github.com/BPIManager/BPIM-Docs](https://github.com/BPIManager/BPIM-Docs)
 
 このドキュメントです。
+
+### BPIM-Bookmarklet
+
+[https://github.com/BPIManager/BPIM-Bookmarklet](https://github.com/BPIManager/BPIM-Bookmarklet)
+
+インポート機能で利用いただけるブックマークレットです。
 
 ---
 

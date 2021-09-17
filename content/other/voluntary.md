@@ -46,4 +46,4 @@ BPIManager で利用する皆伝平均・全国 1 位データの取得にご協
 
 ### その他
 
-本ページの編集履歴は [GitHub](https://github.com/BPIManager/BPIM-Docs) でご確認いただけます。
+本ページの編集履歴は [GitHub](https://github.com/BPIManager/BPIM-Docs/commits/main/content/other/voluntary.md) でご確認いただけます。
