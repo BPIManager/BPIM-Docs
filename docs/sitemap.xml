@@ -60,6 +60,8 @@
   </url><url>
     <loc>/other/</loc>
   </url><url>
+    <loc>/other/updates/202109/</loc>
+  </url><url>
     <loc>/other/updates/202108/</loc>
   </url><url>
     <loc>/categories/</loc>
@@ -73,6 +75,8 @@
     <loc>/tos/0tos/</loc>
   </url><url>
     <loc>/other/def/</loc>
+  </url><url>
+    <loc>/other/voluntary/</loc>
   </url><url>
     <loc>/other/repositories/</loc>
   </url>
