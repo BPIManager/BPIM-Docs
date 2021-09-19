@@ -35,6 +35,17 @@ BPIM の定義ファイルと IIDX 公式サイトの全1データを比較し�
 
 インポート機能で利用いただけるブックマークレットです。
 
+### IIDX-KaidenScores
+
+[https://github.com/BPIManager/IIDX-KaidenScores](https://github.com/BPIManager/IIDX-KaidenScores)
+
+### IIDX-ScoresRepo
+
+[https://github.com/BPIManager/IIDX-ScoresRepo](https://github.com/BPIManager/IIDX-ScoresRepo)
+
+beatmania IIDX 公式サイトより、皆伝およびアリーナランク上位 5000 名のスコアを取得・データ化したファイル群です。
+BPIManager/IIDX-KaidenScores で利用することを企図しています。
+
 ---
 
 ### proxy.poyashi.me

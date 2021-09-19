@@ -9,8 +9,8 @@ BPIManager で利用する皆伝平均・全国 1 位データの取得にご協
 最新の募集状況はこちらをご確認ください。
 
 {{% notice note %}}
-現在、募集しております。  
-ご協力をご検討くださる場合、お手数ですが[@BPIManager](https://twitter.com/BPIManager)までDMにてご連絡ください。
+現在、募集しておりません。  
+募集時には、[Twitter(@BPIManager)](https://twitter.com/BPIManager)にて告知します。
 {{% /notice %}}
 
 ### 募集内容
