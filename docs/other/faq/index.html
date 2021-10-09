@@ -14,7 +14,7 @@ a{
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>統計を表示  -  BPIManager Docs</title>
+    <title>よくある質問  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1633793728" rel="stylesheet">
@@ -42,7 +42,7 @@ a{
     </style>
     
   </head>
-  <body class="" data-url="/docs/manage/stats/">
+  <body class="" data-url="/other/faq/">
     <nav id="sidebar" class="">
 
 
@@ -186,7 +186,7 @@ a{
   
     
     <li data-nav-id="/docs/" title="利用マニュアル" class="dd-item
-        parent
+        
         
         
         ">
@@ -434,7 +434,7 @@ a{
   
     
     <li data-nav-id="/docs/manage/" title="実力管理" class="dd-item
-        parent
+        
         
         
         ">
@@ -481,7 +481,7 @@ a{
  
   
     
-      <li data-nav-id="/docs/manage/stats/" title="統計を表示" class="dd-item active">
+      <li data-nav-id="/docs/manage/stats/" title="統計を表示" class="dd-item ">
         <a href="/docs/manage/stats/">
         統計を表示
         
@@ -781,7 +781,7 @@ a{
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -899,7 +899,7 @@ a{
  
   
     
-      <li data-nav-id="/other/faq/" title="よくある質問" class="dd-item ">
+      <li data-nav-id="/other/faq/" title="よくある質問" class="dd-item active">
         <a href="/other/faq/">
         よくある質問
         
@@ -1052,13 +1052,7 @@ a{
             
           
           
-            
-            
-          
-          
-            <a href='/'>Home</a> > <a href='/docs/'>利用マニュアル</a> > <a href='/docs/manage/'>実力管理</a> > 統計を表示
-          
-        
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > よくある質問
           
         
           
@@ -1073,26 +1067,11 @@ a{
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#基本">基本</a>
+    <li>
       <ul>
-        <li><a href="#総合-bpi">総合 BPI</a></li>
-        <li><a href="#bpi-分布">BPI 分布</a></li>
-        <li><a href="#bpm-帯別総合-bpi">BPM 帯別総合 BPI</a></li>
-        <li><a href="#dj-ランククリアタイプ">DJ ランク・クリアタイプ</a></li>
+        <li><a href="#データ関連">データ関連</a></li>
       </ul>
     </li>
-    <li><a href="#レーダー">レーダー</a>
-      <ul>
-        <li><a href="#対象楽曲">対象楽曲</a></li>
-      </ul>
-    </li>
-    <li><a href="#推移">推移</a>
-      <ul>
-        <li><a href="#設定項目">設定項目</a></li>
-      </ul>
-    </li>
-    <li><a href="#分布">分布</a></li>
-    <li><a href="#自己歴代">自己歴代</a></li>
   </ul>
 </nav>
     </div>
@@ -1110,99 +1089,24 @@ a{
           
             <h1>
               
-              統計を表示
+              よくある質問
             </h1>
           
 
         
 
 
-<p>BPI や EX スコアを各側面から分析するための機能です。</p>
-<p>「基本」「レーダー」「推移」「分布」「自己歴代」の 5 タブから構成されます。</p>
-<h2 id="基本">基本</h2>
-<p><img src="/images/manual/stat/1.jpg" alt="/images/manual/stat/1.jpg"></p>
-<p>総合 BPI や DJ ランクなど、基本的な分析を表示します。<br>
-画面右上の「表示対象」から統計を表示する難易度を選択します。</p>
-<h3 id="総合-bpi">総合 BPI</h3>
-<p><a href="http://norimiso.web.fc2.com/aboutBPI.html">BPI の定義</a>に基づき、単曲 BPI の二乗平均平方根で算出されます。<br>
-推定順位の算出方法についても同様に、 BPI の定義に依拠しています。</p>
-<h3 id="bpi-分布">BPI 分布</h3>
-<p>単曲 BPI の度数分布を表しています。<br>
-グラフ中の縦実線は総合 BPI の位置を表しています。</p>
-<h3 id="bpm-帯別総合-bpi">BPM 帯別総合 BPI</h3>
-<p>BPM 帯ごとの単曲 BPI の度数分布を表しています。<br>
-SOF とはソフランを含む楽曲を示しています。</p>
-<p>BPM 帯別総合 BPIにおける総合 BPI の算出式は、上記総合 BPI と同一です。</p>
-<h3 id="dj-ランククリアタイプ">DJ ランク・クリアタイプ</h3>
-<p>各楽曲の DJ ランクおよびクリアタイプを円グラフで表します。</p>
-<h2 id="レーダー">レーダー</h2>
-<p><img src="/images/manual/stat/2.jpg" alt="/images/manual/stat/2.jpg"></p>
-<p>beatmania IIDX のプレイスキルにおける代表的な要素ごとに代表楽曲を選出し、それぞれについて総合 BPI を算出したものがレーダーです。</p>
-<h3 id="対象楽曲">対象楽曲</h3>
-<p>2021/7/30 時点における、各要素の対象楽曲は次のとおりです。</p>
-<table>
-<thead>
-<tr>
-<th>ターゲット</th>
-<th>集計対象</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>NOTES</td>
-<td>B4U(BEMANI FOR YOU MIX)(L)<br />Chrono Diver -PENDULUMs-(A)<br />Elemental Creation(A)<br />perditus†paradisus(A)<br />Sigmund(L)<br />Verflucht(L)</td>
-</tr>
-<tr>
-<td>CHARGE</td>
-<td>DIAMOND CROSSING(A)<br />ECHIDNA(A)<br />Snakey Kung-fu(A)<br />Timepiece phase II (CN Ver.)(A)<br />TOGAKUSHI(A)</td>
-</tr>
-<tr>
-<td>PEAK</td>
-<td>KAMAITACHI(L)<br />X-DEN(A)<br />卑弥呼(A)<br />疾風迅雷(L)<br />天空の夜明け(A)</td>
-</tr>
-<tr>
-<td>CHORD</td>
-<td>Beat Radiance(L)<br />Despair of ELFERIA(A)<br />Little Little Princess(L)<br />mosaic(A)<br />Rave*it!! Rave*it!!(A)<br />waxing and wanding(L)</td>
-</tr>
-<tr>
-<td>GACHIOSHI</td>
-<td>255(A)<br />BITTER CHOCOLATE STRIKER(A)<br />GRID KNIGHT(L)<br />VANESSA(L)<br />童話回廊(A)</td>
-</tr>
-<tr>
-<td>SCRATCH</td>
-<td>BLACK.by X-Cross Fade(A)<br />Snake Stick(A)<br />Red. by Jack Trance(A)<br />灼熱Beach Side Bunny(A)<br />灼熱 Pt.2 Long Train Running<br />火影(A)</td>
-</tr>
-<tr>
-<td>SOFLAN</td>
-<td>DAY DREAM(A)<br />Fascination MAXX(A)<br />ruin of opals(A)<br />Concertino in Blue(A)<br />PARANOiA ～HADES～(A)<br />冥(A)</td>
-</tr>
-<tr>
-<td>DELAY</td>
-<td>DIAVOLO(A)<br />Mare Nectaris(A)<br />quell ～the seventh slave～(A)<br />Thor&rsquo;s Hammer(A)</td>
-</tr>
-<tr>
-<td>RENDA</td>
-<td>IMPLANTATION(A)<br />Innocent Walls(H)<br />Scripted Connection⇛ A mix(A)<br />Sense 2007(A)<br />ピアノ協奏曲第１番”蠍火”(A)<br />ワルツ第17番 ト短調”大犬のワルツ”(A)</td>
-</tr>
-</tbody>
-</table>
-<p>対象楽曲は一定期間ごとに見直しを行っています。<br>
-また、対象楽曲は <a href="https://docs.google.com/forms/d/e/1FAIpQLSfhJkZZp5K1ChbE5RH-f0hOIkGvGX-7tYCZMxzVlsHVAtZ6eg/viewform">アンケート</a> の実施結果をもとに決定されます。</p>
-<h2 id="推移">推移</h2>
-<p><img src="/images/manual/stat/3.jpg" alt="/images/manual/stat/3.jpg"></p>
-<p>過去の楽曲更新数や総合 BPI の推移をグラフで表示します。</p>
-<h3 id="設定項目">設定項目</h3>
-<ul>
-<li>表示対象 : 更新履歴および総合 BPI 推移の対象とする難易度を変更します。</li>
-<li>プライマリグラフの表示項目 : 複合グラフに表示する内容を設定します。</li>
-<li>表示期間 : データの集計期間を設定します。</li>
-</ul>
-<h2 id="分布">分布</h2>
-<p><img src="/images/manual/stat/4.jpg" alt="/images/manual/stat/4.jpg"></p>
-<p>バージョン間におけるスコアの更新点数を分布図に表します。</p>
-<p>前作に比べ、大幅に上達したのか、あまり上達していないのか、はたまた下手になっているのか、といった判断を、他の楽曲の上昇率と比較し相対的に判断することを目的として搭載されています。</p>
-<h2 id="自己歴代">自己歴代</h2>
-<p>各楽曲につき、自己歴代を表示します。</p>
+<p>BPIManager(BPIM) のご利用について、よくある質問をまとめました。<br>
+こちらに質問事項が掲載されていない場合、お手数ですが<a href="/contact/">お問い合わせ</a>よりご報告ください。</p>
+<h3 id="データ関連">データ関連</h3>
+<h4 id="csv-インポート後本来存在しないはずの楽曲難易度が取り込みエラーに表示されている">CSV インポート後、本来存在しないはずの楽曲・難易度が取り込みエラーに表示されている。</h4>
+<p>取り込もうとした CSV にデータ異常がある可能性があります。</p>
+<p>IIDX公式サイトの CSV ダウンロードページの読み込みが完全に終了したことを確認したのち、CSVをコピーし取り込みを行ってください。</p>
+<h4 id="bpim-に以前スコアを登録したが知らない間に消えている">BPIM に以前スコアを登録したが、知らない間に消えている。</h4>
+<p>お使いのブラウザでキャッシュを削除すると、 BPIM に保存されたデータが消える場合があります。<br>
+Cookie や Web 閲覧履歴の削除を行うと、同時にスコアデータも消失する事態が頻発します。</p>
+<p>お手数ですが、Sync 機能を用いてのバックアップを実施いただき、スコアが消失した場合には同じく Sync よりレストアをお願いいたします。<br>
+設定画面よりAuto-Syncをオンにすると、 CSV 取り込み時に自動でスコアデータをクラウド上に保存するためバックアップの手間が省け便利です。お試しください。</p>
 
 
 <footer class="footline">
@@ -1307,7 +1211,6 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
                 
                     
-                    
                 
                 
 
@@ -1322,9 +1225,6 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1470,7 +1370,6 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
                 
                     
-                    
                 
                 
 
@@ -1483,26 +1382,6 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
             
                 
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                     
                 
                 
@@ -1520,8 +1399,21 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -1705,6 +1597,7 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
                 
                     
+                    
                 
                 
 
@@ -1719,6 +1612,9 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1770,6 +1666,7 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
                 
                     
+                    
                 
                 
 
@@ -1785,6 +1682,9 @@ SOF とはソフランを含む楽曲を示しています。</p>
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1857,10 +1757,10 @@ SOF とはソフランを含む楽曲を示しています。</p>
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/manage/compare/" title="スコアを比較する"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/202108/" title="2021年8月"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/docs/manage/aaa/" title="AAA達成表" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/credits/" title="クレジット" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
