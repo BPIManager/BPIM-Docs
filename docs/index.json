@@ -207,7 +207,7 @@
 	"title": "2021年12月",
 	"tags": [],
 	"description": "",
-	"content": "2021/12/30 [定義ファイル]v20211230  下記 IIDX29 CastHour の新曲を、 BPI 算出非対応曲として追加しました。\nスコアデータが内部的に記録され、 BPI 算出対応時には、さかのぼって BPI が算出されます。   ☆12 Aftermath [A] ☆12 ALTERNATOR [A] ☆12 Angel\u0026rsquo;s Ladder [A] ☆12 Don\u0026rsquo;t believe the hype [A] ☆12 Fegrix [A] ☆12 GiGaGaHell [A] ☆12 LIVE DRIVING !! feat. 花たん [A] ☆12 Purple Perplex [A] ☆12 Skreaming for Salvation [A] ☆12 禊 [A] ☆11 Ergosphere [A] ☆11 kors k\u0026rsquo;s How to make OTOGE CORE [A] ☆11 ぐだふわエブリデー [A] ☆11 ミュージック・アワー [A]  正式な BPI 対応楽曲としての追加日は 2022年 1 月以降を予定しています。\n[本体]v0.0.8.6g (2021/12/30 JST)  BPIMRanks のリリースに伴い、ユーザーページ及び楽曲詳細画面より BPIMRanks に直接アクセスできるようになりました。BPIMRanks についてはこちら いくつかのバグを修正しました  "
+	"content": "2021/12/30 [定義ファイル]v20211230  下記 IIDX29 CastHour の新曲を、 BPI 算出非対応曲として追加しました。\nスコアデータが内部的に記録され、 BPI 算出対応時には、さかのぼって BPI が算出されます。    ☆12 Aftermath [A]\n  ☆12 ALTERNATOR [A]\n  ☆12 Angel\u0026rsquo;s Ladder [A]\n  ☆12 Don\u0026rsquo;t believe the hype [A]\n  ☆12 Fegrix [A]\n  ☆12 GiGaGaHell [A]\n  ☆12 LIVE DRIVING !! feat. 花たん [A]\n  ☆12 Purple Perplex [A]\n  ☆12 Skreaming for Salvation [A]\n  ☆12 禊 [A]\n  ☆12 君のハートにロックオン [L]\n  ☆12 BroGamer [L]\n  ☆11 Ergosphere [A]\n  ☆11 kors k\u0026rsquo;s How to make OTOGE CORE [A]\n  ☆11 ぐだふわエブリデー [A]\n  ☆11 ミュージック・アワー [A]\n  ☆11 AGEHA [L]\n  ☆11 ベィスドロップ・フリークス [L]\n  正式な BPI 対応楽曲としての追加日は 2022年 1 月以降を予定しています。\n[本体]v0.0.8.6g (2021/12/30 JST)  BPIMRanks のリリースに伴い、ユーザーページ及び楽曲詳細画面より BPIMRanks に直接アクセスできるようになりました。BPIMRanks についてはこちら いくつかのバグを修正しました  "
 },
 {
 	"uri": "/other/updates/202110/",
