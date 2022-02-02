@@ -182,6 +182,13 @@
 	"content": "BPIM の設定項目に関する説明です。\n設定項目はカテゴリごとに「基本」「表示」「その他」の 3 種に分類されています。\n基本  Language : UI の言語を指定します。 テーマ : UI のカラーリングを指定します。 バージョン : データ保存先の IIDX バージョンを指定します。 Auto-sync : データ取り込みページから CSV またはブックマークレットでスコアをインポートした際、自動的にクラウドにデータを同期します。 DP モード ( beta ) : ダブルプレイのスコアを登録します。 目標 BPI / 目標 パーセンテージ : 「データ比較」画面で当該 BPI および スコアレートに相当する EX スコアを比較対象として選択できます。 地域 : 楽曲詳細画面から指定した地域の TOP RANKER ページを開くことができるようになります。  定義データの更新 BPIM で用いる全 1 スコアおよび皆伝平均などが含まれるファイル ( 定義データ ) を更新します。\n最新の定義データのインポートには最新版の BPIM をご利用いただく必要があります。\nキャッシュクリア BPIM 本体のキャッシュを削除します。\nBPIM は自動でバージョンアップデートを行いますが、まれに機種依存で自動更新が適用されない場合があります。\nそうした場合は、キャッシュを削除した上で BPIM を再起動すると最新バージョンにアップデートできます。\n表示  楽曲リスト / 補助表示 : 楽曲一覧にて表示する内容を選択します。 楽曲リスト / BPI 非対応曲の表示 : BPI 算出に対応していない楽曲(最新楽曲が該当します)を楽曲一覧に表示します。  この機能をオフにしていても、内部的にスコアは記録され続けます。   クイックアクセス : トップページ「クイックアクセス」に表示するリンクを設定します。  その他  従来の計算方式を利用 : BPI 算出において譜面係数を 1.5 に固定します。 データリセット : 選択したデータベースに登録されている内容をすべて削除します。 エクスポート : 設定中のバージョンに登録されたスコアデータを CSV 形式で書き出します。  デバッグ情報 アプリケーションのデバッグ情報を表示します。\nBPIM ご利用中の不具合を報告する際、この画面に表示されている内容を必要に応じて開発者へお伝え下さい。\n"
 },
 {
+	"uri": "/other/rank/",
+	"title": "BPIMRanks API",
+	"tags": [],
+	"description": "",
+	"content": "はじめに BPIMRanks API は、 BPIManager に蓄積されたデータを表示・集計する API です。\nデータは個人利用に限り、自由にご活用ください。\n基本   ベースURL\nhttps://proxy.poyashi.me/bpim/api/v1/\n  使用制限 : 現在、ご利用にあたり認証の必要やレートリミットは設定がありません。\n  レスポンス形式 {\r\u0026quot;error\u0026quot;: false, // リクエストにエラーが含まれる場合に true\r\u0026quot;maintenance\u0026quot;: false, // 定時メンテナンス時のみ true\r\u0026quot;time\u0026quot;: \u0026quot;20220131024953\u0026quot;, // リクエストを処理した時点でのサーバー時間\r\u0026quot;body\u0026quot;: [], // Response Body\r\u0026quot;meta\u0026quot;: {\r\u0026quot;idx\u0026quot;: \u0026quot;49\u0026quot;,\r\u0026quot;latestVersion\u0026quot;: \u0026quot;29\u0026quot;, // サーバーに設定された最新のIIDXバージョン\r\u0026quot;updatedAt\u0026quot;: \u0026quot;2022-01-31 03:16:36\u0026quot; // 最後にデータが更新された時刻\r}\r}\r楽曲 GET /songs/list (Example) Queries  level:\u0026ldquo;11\u0026rdquo;|\u0026ldquo;12\u0026rdquo; 集計対象の楽曲レベル store:\u0026ldquo;28\u0026rdquo;|\u0026ldquo;29\u0026rdquo; 集計対象のIIDXバージョン(28 BISTROVER または 29 CastHour のみ) offset:Number オフセットを指定 limit:Number 表示件数を指定 withPlayerSum?:boolean プレイヤー総数をデータに含む場合はクエリに含める　それ以外の場合はクエリを含めない  Notes\n withPlayerSum オプションを使用するとクエリが大変遅くなります。  Body\n レスポンス内 body は下記 Object の配列が返却されます。  {\r\u0026quot;uid\u0026quot;: \u0026quot;JZOB00HuSfbYd7jPM7A1T7KsPVJ3\u0026quot;, // 1 位プレイヤーの uid\r\u0026quot;title\u0026quot;: \u0026quot;-65\\u2103\u0026quot;, // 楽曲名\r\u0026quot;difficulty\u0026quot;: \u0026quot;another\u0026quot;, //楽曲難易度 (hyper,another,leggendaria)\r\u0026quot;difficultyLevel\u0026quot;: \u0026quot;12\u0026quot;, //楽曲難易度 (12 段階表記)\r\u0026quot;exScore\u0026quot;: \u0026quot;3768\u0026quot;, // 1位プレイヤーの EX スコア\r\u0026quot;bpi\u0026quot;: \u0026quot;112\u0026quot;, // 1位プレイヤーの BPI\r\u0026quot;displayName\u0026quot;: \u0026quot;SEIRYU\u0026quot;, // 1位プレイヤーのユーザー名(非公開プレイヤーの場合 null )\r\u0026quot;photoURL\u0026quot;: \u0026quot;https:\\/\\/pbs.twimg.com\\/profile_images\\/1395372542181871617\\/zqCeVHNS_normal.jpg\u0026quot;, // 1位プレイヤーのプロフィール画像(非公開プレイヤーの場合 null )\r\u0026quot;updatedAt\u0026quot;: \u0026quot;2021-10-21 22:42:00\u0026quot;, // 1位プレイヤーの更新日時\r\u0026quot;playerSum\u0026quot;: \u0026quot;566\u0026quot; // プレイヤー総数 (withPlayerSum オプション使用時のみ)\r}, ...\r"
+},
+{
 	"uri": "/contact/",
 	"title": "お問い合わせ",
 	"tags": [],
@@ -201,6 +208,13 @@
 	"tags": [],
 	"description": "",
 	"content": "開発情報 BPIManager の開発に関する事項を掲載しています。\nクレジット 関連リポジトリ 定義ファイルの記述 "
+},
+{
+	"uri": "/other/updates/202202/",
+	"title": "2022年02月",
+	"tags": [],
+	"description": "",
+	"content": "2022/02/02 [定義ファイル]v20220202  下記 IIDX29 CastHour の新曲を、 BPI 算出非対応曲として追加しました。\nスコアデータが内部的に記録され、 BPI 算出対応時には、さかのぼって BPI が算出されます。   ☆11 青の洞窟[A] ☆11 Banger Banger Banger Banger[A] ☆11 Souhait bleu[A] ☆12 Silver Bullet[A] ☆12 Binary Black Hole[A] ☆12 逆月[A] ☆12 2 Beasts Unchained[A]  BPI 算出に関わる全1および皆伝平均の更新について、当初は2022年 1 月以降を予定しておりましたが、皆伝取得人数不足およびアリーナランク未実装による母数不足により当面延期いたします。\n 2022/01 の更新   データ比較画面にて、各アリーナランク平均スコアとの比較機能を実装しました\nhttps://twitter.com/BPIManager/status/1486583539210457089\n  リコメンド機能を実装しました（任意の楽曲で高いスコアを出している人が、高いスコアを出しがちな楽曲を表示し、総合BPIに相当するスコアを理論スコアとして表示します）\nhttps://twitter.com/BPIManager/status/1487832621191204868\n  "
 },
 {
 	"uri": "/other/updates/202112/",
