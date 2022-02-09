@@ -17,22 +17,22 @@ a{
     <title>BPIM アカウントの作成  -  BPIManager Docs</title>
 
     
-    <link href="/css/nucleus.css?1644151127" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1644151127" rel="stylesheet">
-    <link href="/css/hybrid.css?1644151127" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1644151127" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1644151127" rel="stylesheet">
-    <link href="/css/auto-complete.css?1644151127" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1644151127" rel="stylesheet">
-    <link href="/css/theme.css?1644151127" rel="stylesheet">
-    <link href="/css/tabs.css?1644151127" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1644151127" rel="stylesheet">
+    <link href="/css/nucleus.css?1644422723" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1644422723" rel="stylesheet">
+    <link href="/css/hybrid.css?1644422723" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1644422723" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1644422723" rel="stylesheet">
+    <link href="/css/auto-complete.css?1644422723" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1644422723" rel="stylesheet">
+    <link href="/css/theme.css?1644422723" rel="stylesheet">
+    <link href="/css/tabs.css?1644422723" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1644422723" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1644151127" rel="stylesheet">
+    <link href="/css/theme-blue.css?1644422723" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1644151127"></script>
+    <script src="/js/jquery-3.3.1.min.js?1644422723"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -62,14 +62,14 @@ a{
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1644151127"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1644151127"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1644422723"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1644422723"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1644151127"></script>
+<script type="text/javascript" src="/js/search.js?1644422723"></script>
 
     
   </div>
@@ -1174,6 +1174,7 @@ a{
     <li><a href="#アカウント作成">アカウント作成</a>
       <ul>
         <li><a href="#bpim-アカウントの追加機能">BPIM アカウントの追加機能</a></li>
+        <li><a href="#bpim-アカウントの必要性">BPIM アカウントの必要性</a></li>
       </ul>
     </li>
     <li><a href="#アカウント設定">アカウント設定</a></li>
@@ -1203,8 +1204,7 @@ a{
 
 
 <p>BPIM アカウントを作成いただくと、スコアデータのクラウドへの保存をはじめ、各種追加機能をご利用いただけます。<br>
-2022/02/02 現在、のべ 3961 のアカウントが作成されています。</p>
-<p>ぜひともアカウント作成のうえ、  BPIM をご利用ください。</p>
+2022/02/10 現在、のべ 3997 のアカウントが作成されています。</p>
 <h2 id="アカウント作成">アカウント作成</h2>
 <p>BPIM アカウントはソーシャル連携により作成できます。<br>
 BPIM から <a href="https://bpi.poyashi.me/sync/settings">Sync</a> へアクセスし、連携サービスを選択することでアカウントを作成できます。</p>
@@ -1218,7 +1218,19 @@ BPIM から <a href="https://bpi.poyashi.me/sync/settings">Sync</a> へアクセ
 <li>スコアデータのクラウドへの保存</li>
 <li>保存したスコアデータの一般公開</li>
 <li>IR(ランキング)の作成および参加</li>
+<li>BPIMRanks (※) に自動掲載されます</li>
 </ul>
+<p>※ <a href="https://rank.poyashi.me">BPIM にご登録頂いている方が自動で掲載される、ランキングサイト</a>です。<br>
+BPIM にてプレイヤーデータを公開されている方は名前有り、非公開の方は「非公開プレイヤー」として特定されない形でスコアが掲載されます。<br>
+スコアデータは毎日午前3時に自動で更新されます。<br>
+ランキングへの掲載を希望されない場合はお手数ですが<a href="/contact/">こちら</a>よりご連絡をお願いいたします。</p>
+<h3 id="bpim-アカウントの必要性">BPIM アカウントの必要性</h3>
+<p>BPIM では、 IndexedDB を用いてスコアデータをお使いのブラウザ内に保存しています。<br>
+これらのデータの扱いは Cookie などとほぼ同じであり、ブラウザのキャッシュ削除により<strong>容易に消失するおそれがあります</strong>。</p>
+<p>BPIM では、これによるスコア消失を防ぐため、クラウドストレージ上に SNS アカウントに紐付けてデータを保存する「 Sync 」と言う機能を提供しております。<br>
+こちらの機能を使用されていない場合、スコアデータが不慮により消失した場合に復元等を行うことができかねます。</p>
+<p>ご利用者さまご自身によりスコアデータを公開する設定にしなければ、ユーザーが特定される形でスコアが公開されることはありません (※) ので、ご理解のほどお願いいたします。</p>
+<p>※ 「非公開ユーザー」として、アカウントとの紐付けが出来ない形で <a href="https://rank.poyashi.me">BPIMRanks</a> に登載されます。</p>
 <h2 id="アカウント設定">アカウント設定</h2>
 <p>作成済みの BPIM アカウントに関する設定は、 BPIM 上で行います。
 BPIM から <a href="https://bpi.poyashi.me/sync/settings">Sync</a> へアクセスしてください。</p>
@@ -1950,16 +1962,16 @@ BPIM から <a href="https://bpi.poyashi.me/sync/settings">Sync</a> へアクセ
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1644151127"></script>
-    <script src="/js/perfect-scrollbar.min.js?1644151127"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1644151127"></script>
-    <script src="/js/jquery.sticky.js?1644151127"></script>
-    <script src="/js/featherlight.min.js?1644151127"></script>
-    <script src="/js/highlight.pack.js?1644151127"></script>
+    <script src="/js/clipboard.min.js?1644422723"></script>
+    <script src="/js/perfect-scrollbar.min.js?1644422723"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1644422723"></script>
+    <script src="/js/jquery.sticky.js?1644422723"></script>
+    <script src="/js/featherlight.min.js?1644422723"></script>
+    <script src="/js/highlight.pack.js?1644422723"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1644151127"></script>
-    <script src="/js/learn.js?1644151127"></script>
-    <script src="/js/hugo-learn.js?1644151127"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1644422723"></script>
+    <script src="/js/learn.js?1644422723"></script>
+    <script src="/js/hugo-learn.js?1644422723"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
