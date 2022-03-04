@@ -8,7 +8,7 @@ a{
 </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Hugo 0.87.0" />
+    <meta name="generator" content="Hugo 0.93.1" />
     <meta name="description" content="BPIManager Docs">
 <meta name="author" content="R1muru_Temp3st">
 
@@ -17,22 +17,22 @@ a{
     <title>BPIMRanks API  -  BPIManager Docs</title>
 
     
-    <link href="/css/nucleus.css?1644422723" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1644422723" rel="stylesheet">
-    <link href="/css/hybrid.css?1644422723" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1644422723" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1644422723" rel="stylesheet">
-    <link href="/css/auto-complete.css?1644422723" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1644422723" rel="stylesheet">
-    <link href="/css/theme.css?1644422723" rel="stylesheet">
-    <link href="/css/tabs.css?1644422723" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1644422723" rel="stylesheet">
+    <link href="/css/nucleus.css?1646405047" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1646405047" rel="stylesheet">
+    <link href="/css/hybrid.css?1646405047" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1646405047" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1646405047" rel="stylesheet">
+    <link href="/css/auto-complete.css?1646405047" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1646405047" rel="stylesheet">
+    <link href="/css/theme.css?1646405047" rel="stylesheet">
+    <link href="/css/tabs.css?1646405047" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1646405047" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1644422723" rel="stylesheet">
+    <link href="/css/theme-blue.css?1646405047" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1644422723"></script>
+    <script src="/js/jquery-3.3.1.min.js?1646405047"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -62,14 +62,14 @@ a{
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1644422723"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1644422723"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1646405047"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1646405047"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1644422723"></script>
+<script type="text/javascript" src="/js/search.js?1646405047"></script>
 
     
   </div>
@@ -1222,15 +1222,15 @@ a{
 </li>
 </ul>
 <h4 id="レスポンス形式">レスポンス形式</h4>
-<pre><code>{
-	&quot;error&quot;: false, // リクエストにエラーが含まれる場合に true
-	&quot;maintenance&quot;: false, // 定時メンテナンス時のみ true
-	&quot;time&quot;: &quot;20220131024953&quot;, // リクエストを処理した時点でのサーバー時間
-	&quot;body&quot;: [], // Response Body
-	&quot;meta&quot;: {
-		&quot;idx&quot;: &quot;49&quot;,
-		&quot;latestVersion&quot;: &quot;29&quot;, // サーバーに設定された最新のIIDXバージョン
-		&quot;updatedAt&quot;: &quot;2022-01-31 03:16:36&quot; // 最後にデータが更新された時刻
+<pre tabindex="0"><code>{
+	&#34;error&#34;: false, // リクエストにエラーが含まれる場合に true
+	&#34;maintenance&#34;: false, // 定時メンテナンス時のみ true
+	&#34;time&#34;: &#34;20220131024953&#34;, // リクエストを処理した時点でのサーバー時間
+	&#34;body&#34;: [], // Response Body
+	&#34;meta&#34;: {
+		&#34;idx&#34;: &#34;49&#34;,
+		&#34;latestVersion&#34;: &#34;29&#34;, // サーバーに設定された最新のIIDXバージョン
+		&#34;updatedAt&#34;: &#34;2022-01-31 03:16:36&#34; // 最後にデータが更新された時刻
 	}
 }
 </code></pre><h2 id="楽曲">楽曲</h2>
@@ -1251,17 +1251,17 @@ a{
 <ul>
 <li>レスポンス内 body は下記 Object の配列が返却されます。</li>
 </ul>
-<pre><code>{
-		&quot;uid&quot;: &quot;JZOB00HuSfbYd7jPM7A1T7KsPVJ3&quot;, // 1 位プレイヤーの uid
-		&quot;title&quot;: &quot;-65\u2103&quot;, // 楽曲名
-		&quot;difficulty&quot;: &quot;another&quot;, //楽曲難易度 (hyper,another,leggendaria)
-		&quot;difficultyLevel&quot;: &quot;12&quot;, //楽曲難易度 (12 段階表記)
-		&quot;exScore&quot;: &quot;3768&quot;, // 1位プレイヤーの EX スコア
-		&quot;bpi&quot;: &quot;112&quot;, // 1位プレイヤーの BPI
-		&quot;displayName&quot;: &quot;SEIRYU&quot;, // 1位プレイヤーのユーザー名(非公開プレイヤーの場合 null )
-		&quot;photoURL&quot;: &quot;https:\/\/pbs.twimg.com\/profile_images\/1395372542181871617\/zqCeVHNS_normal.jpg&quot;, // 1位プレイヤーのプロフィール画像(非公開プレイヤーの場合 null )
-		&quot;updatedAt&quot;: &quot;2021-10-21 22:42:00&quot;, // 1位プレイヤーの更新日時
-		&quot;playerSum&quot;: &quot;566&quot; // プレイヤー総数 (withPlayerSum オプション使用時のみ)
+<pre tabindex="0"><code>{
+		&#34;uid&#34;: &#34;JZOB00HuSfbYd7jPM7A1T7KsPVJ3&#34;, // 1 位プレイヤーの uid
+		&#34;title&#34;: &#34;-65\u2103&#34;, // 楽曲名
+		&#34;difficulty&#34;: &#34;another&#34;, //楽曲難易度 (hyper,another,leggendaria)
+		&#34;difficultyLevel&#34;: &#34;12&#34;, //楽曲難易度 (12 段階表記)
+		&#34;exScore&#34;: &#34;3768&#34;, // 1位プレイヤーの EX スコア
+		&#34;bpi&#34;: &#34;112&#34;, // 1位プレイヤーの BPI
+		&#34;displayName&#34;: &#34;SEIRYU&#34;, // 1位プレイヤーのユーザー名(非公開プレイヤーの場合 null )
+		&#34;photoURL&#34;: &#34;https:\/\/pbs.twimg.com\/profile_images\/1395372542181871617\/zqCeVHNS_normal.jpg&#34;, // 1位プレイヤーのプロフィール画像(非公開プレイヤーの場合 null )
+		&#34;updatedAt&#34;: &#34;2021-10-21 22:42:00&#34;, // 1位プレイヤーの更新日時
+		&#34;playerSum&#34;: &#34;566&#34; // プレイヤー総数 (withPlayerSum オプション使用時のみ)
 }, ...
 </code></pre>
 
@@ -1990,16 +1990,16 @@ a{
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1644422723"></script>
-    <script src="/js/perfect-scrollbar.min.js?1644422723"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1644422723"></script>
-    <script src="/js/jquery.sticky.js?1644422723"></script>
-    <script src="/js/featherlight.min.js?1644422723"></script>
-    <script src="/js/highlight.pack.js?1644422723"></script>
+    <script src="/js/clipboard.min.js?1646405047"></script>
+    <script src="/js/perfect-scrollbar.min.js?1646405047"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1646405047"></script>
+    <script src="/js/jquery.sticky.js?1646405047"></script>
+    <script src="/js/featherlight.min.js?1646405047"></script>
+    <script src="/js/highlight.pack.js?1646405047"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1644422723"></script>
-    <script src="/js/learn.js?1644422723"></script>
-    <script src="/js/hugo-learn.js?1644422723"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1646405047"></script>
+    <script src="/js/learn.js?1646405047"></script>
+    <script src="/js/hugo-learn.js?1646405047"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
