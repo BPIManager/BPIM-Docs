@@ -210,6 +210,13 @@
 	"content": "開発情報 BPIManager の開発に関する事項を掲載しています。\nクレジット 関連リポジトリ 定義ファイルの記述 "
 },
 {
+	"uri": "/other/updates/202203/",
+	"title": "2022年03月",
+	"tags": [],
+	"description": "",
+	"content": "2022/03/13 [定義ファイル]v20220313\n 下記 IIDX29 CastHour の新曲を、 BPI 算出非対応曲として追加しました。\nスコアデータが内部的に記録され、 BPI 算出対応時には、さかのぼって BPI が算出されます。   ☆11 Nocturnal 2097[A] ☆11 Legendary Treasures[A] ☆12 烽火連天の刃[A] ☆12 PLASMA SOUL NIGHT feat. Nana Takahashi/709sec.[A]  "
+},
+{
 	"uri": "/other/updates/202202/",
 	"title": "2022年02月",
 	"tags": [],
