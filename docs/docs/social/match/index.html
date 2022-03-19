@@ -14,25 +14,25 @@ a{
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>プライバシーポリシー  -  BPIManager Docs</title>
+    <title>ArenaMatch でマッチング相手を探す  -  BPIManager Docs</title>
 
     
-    <link href="/css/nucleus.css?1647688727" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1647688727" rel="stylesheet">
-    <link href="/css/hybrid.css?1647688727" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1647688727" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1647688727" rel="stylesheet">
-    <link href="/css/auto-complete.css?1647688727" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1647688727" rel="stylesheet">
-    <link href="/css/theme.css?1647688727" rel="stylesheet">
-    <link href="/css/tabs.css?1647688727" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1647688727" rel="stylesheet">
+    <link href="/css/nucleus.css?1647688726" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1647688726" rel="stylesheet">
+    <link href="/css/hybrid.css?1647688726" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1647688726" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1647688726" rel="stylesheet">
+    <link href="/css/auto-complete.css?1647688726" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1647688726" rel="stylesheet">
+    <link href="/css/theme.css?1647688726" rel="stylesheet">
+    <link href="/css/tabs.css?1647688726" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1647688726" rel="stylesheet">
     
-    <link href="/css/theme-blue.css?1647688727" rel="stylesheet">
+    <link href="/css/theme-blue.css?1647688726" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1647688727"></script>
+    <script src="/js/jquery-3.3.1.min.js?1647688726"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -42,7 +42,7 @@ a{
     </style>
     
   </head>
-  <body class="" data-url="/tos/1privacypolicy/">
+  <body class="" data-url="/docs/social/match/">
     <nav id="sidebar" class="">
 
 
@@ -62,14 +62,14 @@ a{
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1647688727"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1647688727"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1647688726"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1647688726"></script>
 <script type="text/javascript">
     
         var baseurl = "\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1647688727"></script>
+<script type="text/javascript" src="/js/search.js?1647688726"></script>
 
     
   </div>
@@ -186,7 +186,7 @@ a{
   
     
     <li data-nav-id="/docs/" title="利用マニュアル" class="dd-item
-        
+        parent
         
         
         ">
@@ -533,7 +533,7 @@ a{
   
     
     <li data-nav-id="/docs/social/" title="ソーシャル" class="dd-item
-        
+        parent
         
         
         ">
@@ -601,7 +601,7 @@ a{
  
   
     
-      <li data-nav-id="/docs/social/match/" title="ArenaMatch でマッチング相手を探す" class="dd-item ">
+      <li data-nav-id="/docs/social/match/" title="ArenaMatch でマッチング相手を探す" class="dd-item active">
         <a href="/docs/social/match/">
         ArenaMatch でマッチング相手を探す
         
@@ -681,7 +681,7 @@ a{
   
     
     <li data-nav-id="/tos/" title="各種規約" class="dd-item
-        parent
+        
         
         
         ">
@@ -707,7 +707,7 @@ a{
  
   
     
-      <li data-nav-id="/tos/1privacypolicy/" title="プライバシーポリシー" class="dd-item active">
+      <li data-nav-id="/tos/1privacypolicy/" title="プライバシーポリシー" class="dd-item ">
         <a href="/tos/1privacypolicy/">
         プライバシーポリシー
         
@@ -1182,7 +1182,13 @@ a{
             
           
           
-            <a href='/'>Home</a> > <a href='/tos/'>各種規約</a> > プライバシーポリシー
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/docs/'>利用マニュアル</a> > <a href='/docs/social/'>ソーシャル</a> > ArenaMatch でマッチング相手を探す
+          
+        
           
         
           
@@ -1197,13 +1203,17 @@ a{
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#想定用途">想定用途</a></li>
+    <li><a href="#機能一覧">機能一覧</a></li>
+    <li><a href="#使い方">使い方</a>
       <ul>
-        <li><a href="#1-利用状況調査">1. 利用状況調査</a></li>
-        <li><a href="#2-広告について">2. 広告について</a></li>
-        <li><a href="#3-recaptcha-について">3. reCAPTCHA について</a></li>
+        <li><a href="#マッチを作成する">マッチを作成する</a></li>
+        <li><a href="#マッチに参加する">マッチに参加する</a></li>
       </ul>
     </li>
+    <li><a href="#ルーム機能">ルーム機能</a></li>
+    <li><a href="#その他">その他</a></li>
+    <li><a href="#将来的に実装予定の機能">将来的に実装予定の機能</a></li>
   </ul>
 </nav>
     </div>
@@ -1221,31 +1231,66 @@ a{
           
             <h1>
               
-              プライバシーポリシー
+              ArenaMatch でマッチング相手を探す
             </h1>
           
 
         
 
 
-<p>BPIManager をご利用いただいた場合、下記プライバシーポリシーに同意をいただいたものとみなします。</p>
-<h3 id="1-利用状況調査">1. 利用状況調査</h3>
+<p>アリーナモードおよび BPLバトルモードにて実力が近いマッチング相手を探したりするための機能です。<br>
+アリーナモードに入ったのに他プレイヤーとタイミングが合わずCPUしか居ない状況、BPLバトルしたいのに戦う相手がいない状況、友達とアリーナする際に入室タイミングが合わずにマッチし損ねる状況を解消したくて作成しました。</p>
+<h2 id="想定用途">想定用途</h2>
 <ul>
-<li>利用状況調査のため、本サービスでは Google Analytics を利用しています。<br>
-Google Analytics は Cookie を利用して利用情報を収集します。<br>
-Google Analytics の利用規約は、下記URLよりご確認いただけます。</li>
-<li><a href="https://marketingplatform.google.com/about/analytics/terms/jp/">https://marketingplatform.google.com/about/analytics/terms/jp/</a></li>
+<li>違うゲーセンに居るフレンドとアリーナモードをする際に、ロビーへの入室タイミングを示し合わせる</li>
+<li>BPL バトルモードで実力が近いマッチング相手を探す</li>
 </ul>
-<h3 id="2-広告について">2. 広告について</h3>
+<h2 id="機能一覧">機能一覧</h2>
 <ul>
-<li>本サービスは Google 及び Google のパートナーが提供する広告を設置しています。</li>
-<li>この広告配信には Cookie が使用されており、過去の Web 閲覧履歴に基づいた広告が配信されています。<br>
-これが不要である場合、 Google アカウントの広告設定ページ（<a href="https://adssettings.google.com/u/0/authenticated">https://adssettings.google.com/u/0/authenticated</a>）からパーソナライズ広告を無効にできます。<br>
-また、 aboutads.info にアクセスしてパーソナライズ広告掲載に使用される第三者配信事業者の Cookie を無効にできます。</li>
+<li>低遅延チャット</li>
+<li>各種チャットコマンド（追加実装予定）</li>
 </ul>
-<h3 id="3-recaptcha-について">3. reCAPTCHA について</h3>
+<h2 id="使い方">使い方</h2>
+<h3 id="マッチを作成する">マッチを作成する</h3>
+<ol>
+<li><a href="https://bpi.poyashi.me/arena">ArenaMatch</a> を開く (要ログイン)</li>
+<li>「新しいルームを作成」ボタンをタップし、下記を入力して「作成」を押下
 <ul>
-<li>Some functions in BPIManager are protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a> apply.</li>
+<li>ルームタイトル（省略可）</li>
+<li>アリーナランク（現在のアリーナランクを選択）</li>
+<li>募集内容（オプション）</li>
+</ul>
+</li>
+<li>作成されたルームに自動移動するので、SNS でシェアしたりしてプレイヤーを待つ</li>
+</ol>
+<p><img src="https://user-images.githubusercontent.com/47537864/159116700-4baf6213-e1be-4049-948a-d60d4363d7fb.jpg" alt="Screenshot_2022-03-19-18-57-30-97_3822ac0e29cfec8970059bb21d01f05e"></p>
+<ul>
+<li>Android 端末をご利用の場合BPIM を閉じても、他プレイヤーがコメントした際に通知でお知らせします。（画像左、iOSは非対応）</li>
+<li>BPIM を開いている状態の場合、画面下でコメントをポップアップ通知します。設定画面より非表示にできます。</li>
+<li>いずれの通知も、タップすることで直接チャット画面を開きます。</li>
+</ul>
+<h3 id="マッチに参加する">マッチに参加する</h3>
+<ol>
+<li>BPIM トップページまたは <a href="https://bpi.poyashi.me/arena">ArenaMatch</a> で参加したいルームを探して入室する</li>
+<li>チャットで意思疎通する</li>
+</ol>
+<h2 id="ルーム機能">ルーム機能</h2>
+<p><img src="https://user-images.githubusercontent.com/47537864/159116831-2ccb98a4-7762-49b6-9ca7-b88136059b26.jpg" alt="Screenshot_2022-03-19-19-07-14-62_40deb401b9ffe8e1df2f1cc5ba480b12"></p>
+<ul>
+<li>「ルーム設定」&gt;「カウントダウンの開始」またはチャットで「/timer set ○(秒数)」と入力すると、指定した秒数のカウントダウンが画面上に表示されます。<br>
+時刻補正を行っているため、端末の時計が狂っていてもそれなりに同じタイミングで入室できると思います。<br>
+アリーナモードに入るタイミングを示し合わせるのにご利用ください。</li>
+</ul>
+<h2 id="その他">その他</h2>
+<ul>
+<li>ルームは作成後3時間で自動的に ArenaMatch リストに表示されなくなります。<br>
+すでに入室済みの場合、退出するまで引き続きチャットを利用できます。</li>
+</ul>
+<h2 id="将来的に実装予定の機能">将来的に実装予定の機能</h2>
+<ul>
+<li>ルームを作成したタイミングで、あなたをライバルに登録しているプレイヤーに対し通知を送信する</li>
+<li>追加コマンド（指定したユーザーと自分のスコアを比較して勝てそうな曲目を返したり等）</li>
+<li>承認制ルーム</li>
 </ul>
 
 
@@ -1351,6 +1396,7 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
                 
                     
+                    
                 
                 
 
@@ -1366,18 +1412,8 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -1386,9 +1422,6 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
                     
                     
 
-                    
-            
-        
                     
                         
             
@@ -1405,54 +1438,6 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -1630,10 +1615,82 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
         
                     
+            
+        
+                    
                         
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -1673,7 +1730,6 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
                 
                     
-                    
                 
                 
 
@@ -1686,7 +1742,6 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
             
                 
-                    
                     
                 
                 
@@ -1703,9 +1758,6 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1974,10 +2026,10 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
 	 
 	 
 		
-			<a class="nav nav-prev" href="/tos/" title="各種規約"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/docs/social/notes/" title="Notes で攻略情報をシェア"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/tos/0tos/" title="利用規約" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/docs/social/sync/" title="BPIM アカウントの管理(Sync)" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1987,16 +2039,16 @@ Google Analytics の利用規約は、下記URLよりご確認いただけます
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1647688727"></script>
-    <script src="/js/perfect-scrollbar.min.js?1647688727"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1647688727"></script>
-    <script src="/js/jquery.sticky.js?1647688727"></script>
-    <script src="/js/featherlight.min.js?1647688727"></script>
-    <script src="/js/highlight.pack.js?1647688727"></script>
+    <script src="/js/clipboard.min.js?1647688726"></script>
+    <script src="/js/perfect-scrollbar.min.js?1647688726"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1647688726"></script>
+    <script src="/js/jquery.sticky.js?1647688726"></script>
+    <script src="/js/featherlight.min.js?1647688726"></script>
+    <script src="/js/highlight.pack.js?1647688726"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1647688727"></script>
-    <script src="/js/learn.js?1647688727"></script>
-    <script src="/js/hugo-learn.js?1647688727"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1647688726"></script>
+    <script src="/js/learn.js?1647688726"></script>
+    <script src="/js/hugo-learn.js?1647688726"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
