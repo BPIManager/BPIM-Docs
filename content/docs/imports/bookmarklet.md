@@ -9,7 +9,7 @@ beatmania IIDX 公式サイト上で BPIM 用ブックマークレットを実�
 
 ### メリット
 
-- CSV インポートほどではありませんが、迅速に複数楽曲のスコアを登録いただけます。
+- 迅速に複数楽曲のスコアを登録いただけます。
 - スコアと一緒にクリアランプをお取り込みいただけます。
 
 ### デメリット
@@ -25,13 +25,7 @@ javascript:(function() { javascript: (function(d, s) { s = d.createElement('scri
 
 1. 上記ブックマークレットをお使いのブラウザに登録します。
 2. [beatmania IIDX](https://p.eagate.573.jp/game/2dx/28/top/index.html) 公式サイトを開き、ブックマークレットを実行します。
-3. 暫く待つと（参照）図のように実行結果が画面に表示されますので、結果をコピーします。
-4. [BPIM 取り込みページ](https://bpi.poyashi.me/data) を開き、「取り込み実行」ボタンをタップします。
-
-（参照）
-
-![https://files.poyashi.me/bpim/sample_completed.jpg](https://files.poyashi.me/bpim/sample_completed.jpg)
-
+3. データ取得完了後、自動的に [BPIM 取り込みページ](https://bpi.poyashi.me/data) へ移動しデータのインポートが開始されます。
 
 
 ### ご注意
