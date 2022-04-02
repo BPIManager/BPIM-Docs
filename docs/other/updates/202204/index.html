@@ -14,7 +14,7 @@ a{
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>BPI とは  -  BPIManager Docs</title>
+    <title>2022年04月  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1648909899" rel="stylesheet">
@@ -42,7 +42,7 @@ a{
     </style>
     
   </head>
-  <body class="" data-url="/begin/aboutbpi/">
+  <body class="" data-url="/other/updates/202204/">
     <nav id="sidebar" class="">
 
 
@@ -89,7 +89,7 @@ a{
   
     
     <li data-nav-id="/begin/" title="はじめての方へ" class="dd-item
-        parent
+        
         
         
         ">
@@ -115,7 +115,7 @@ a{
  
   
     
-      <li data-nav-id="/begin/aboutbpi/" title="BPI とは" class="dd-item active">
+      <li data-nav-id="/begin/aboutbpi/" title="BPI とは" class="dd-item ">
         <a href="/begin/aboutbpi/">
         BPI とは
         
@@ -781,7 +781,7 @@ a{
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -836,7 +836,7 @@ a{
   
     
     <li data-nav-id="/other/updates/" title="アップデート" class="dd-item
-        
+        parent
         
         
         ">
@@ -865,8 +865,8 @@ a{
   
     
     <li data-nav-id="/other/updates/202204/" title="2022年04月" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/other/updates/202204/">
@@ -1208,7 +1208,13 @@ a{
             
           
           
-            <a href='/'>Home</a> > <a href='/begin/'>はじめての方へ</a> > BPI とは
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > <a href='/other/updates/'>アップデート</a> > 2022年04月
+          
+        
           
         
           
@@ -1223,13 +1229,9 @@ a{
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#bpi-とは">BPI とは?</a></li>
-    <li><a href="#bpi-を活用するメリット">BPI を活用するメリット</a></li>
-    <li><a href="#bpim-における-bpi-改変">BPIM における BPI 改変</a>
+    <li>
       <ul>
-        <li><a href="#楽曲ごとの譜面係数を設定">楽曲ごとの譜面係数を設定</a></li>
-        <li><a href="#集計対象となる母数の変更">集計対象となる母数の変更</a></li>
-        <li><a href="#総合-bpi-の算出方式">総合 BPI の算出方式</a></li>
+        <li><a href="#20220402">2022/04/02</a></li>
       </ul>
     </li>
   </ul>
@@ -1249,77 +1251,33 @@ a{
           
             <h1>
               
-              BPI とは
+              2022年04月
             </h1>
           
 
         
 
 
-<p>BPIManager (以下 BPIM ) が提供する BPI について、理論をご紹介します。</p>
-<h2 id="bpi-とは">BPI とは?</h2>
-<p>BPI とは、norimiso ( <a href="https://twitter.com/norimisoIIDX">@norimisoIIDX</a> ) 氏が提唱された、 beatmania IIDX のスコア力を一般化して評価するための指標です。</p>
-<p><strong>全国歴代 1 位のスコアを 100 、皆伝平均を 0</strong> として、指数関数的にスコアのお上手度を評価します。<br>
-ここで「指数関数的に」と言うのは、歴代スコアに近づくほどスコア更新の難度が上がるという考え方に基づき、BPIが高くなるほどEXスコアにおける1点の重みが増す仕様となっているからです。<br>
-具体例を出すならば、AA(A) を 3000 点から 3010 点まで 10 点伸ばすことより、歴代近傍である 3640 点から 3650 点まで 10 点伸ばすほうが難しい、とイメージいただければ分かりやすいと思います。</p>
-<p>BPI の概念および計算式については、<a href="http://norimiso.web.fc2.com/aboutBPI.html">norimiso 氏のWebサイト(外部サイト)</a>が詳しいため、こちらも併せてご確認ください。</p>
-<h2 id="bpi-を活用するメリット">BPI を活用するメリット</h2>
-<p>BPI を活用するメリットとして、<strong>複数楽曲間におけるスコアの上手さを平準化できる</strong>ことが挙げられます。</p>
-<p>たとえば、DIAVOLO(A) で BPI 40 として評価される EX スコアは 3072 点で、スコアレートで表すと 88.02% です。<br>
-一方、 AA(A) で BPI40 として評価される EX スコアは 3572 点で、スコアレートで表すと 97.38% です。<br>
-BPI を用いると、 DIAVOLO(A) で 3072 点を出すのは、 AA(A) で 3572 点を出すのと同じくらい上手であることが示されます。<br>
-スコアレートではこれら 2 つのスコア間には大きな隔たりがありますが、ご存知の通り DIAVOLO(A) はスコアを出すことが難しい一方で AA(A) はそうではなく、ユーザーの感覚に近いものになっていることでしょう。</p>
-<p>この考え方を逆手に取れば、 AA(A) で 3572 点を出す実力がある人は、理論上 DIAVOLO(A) で 3072 点を出す可能性があるとも言えます（実際は得意な譜面傾向により左右されるでしょうが）。<br>
-このように、ある楽曲で達成したスコアと同じ水準のスコアを別楽曲で算出しリコメンドできるのも、 BPI ならではの強みです。</p>
-<p>なお、 BPI を有効的に活用いただけるプレイヤー層は、上記で示した BPI の特性上、ある程度のスコア力を有する方に限られてまいります。</p>
-<p>※上記例における算出 BPI は 2021/7/28 時点におけるものです。</p>
-<h2 id="bpim-における-bpi-改変">BPIM における BPI 改変</h2>
-<p>BPIM においては、上述した本来の BPI の定義に数点の独自の改変を加えています。<br>
-この項目では、それらについて解説しています。</p>
-<h3 id="楽曲ごとの譜面係数を設定">楽曲ごとの譜面係数を設定</h3>
-<p>単曲 BPI の算出においては、 <strong>「歴代近傍において EX スコア 1 点の重みが増す」</strong> ことを再現するため、 PGF を自然対数に代入したうえで 1.5 乗しています。<br>
-近年、LIGHTNING MODEL の登場およびプレイヤーレベルの向上等により、 BPI が考案された当時と状況が変わっており、より実情に即し BPI を算出するため下記変更を反映しています。</p>
-<p>BPI = 100*(ln(S&rsquo;)/ln(Z&rsquo;))^p (s &gt;=k)<br>
-BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
-<p>上記の単曲 BPI の公式につき、目的変数をp、説明変数を各BPIおよび上式ln(S&rsquo;)(s=各BPIに相当するEXスコア)として、非線形最小二乗法を用いた単回帰分析により p 値を設定しています。<br>
-説明変数として用いるプレイヤーデータは、eAMUSEMENT 上で確認できる全プレイヤーのスコアデータをスクレイピングにより取得しています(スコアを非公開にしているプレイヤーを除く)。<br>
-この結果、（参考）図のように、算出される BPI と実順位における分布の乖離を是正しています。</p>
-<p>（参考、x 軸 : EX スコア、y 軸 : BPI）</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">p = 1.5</th>
-<th style="text-align:center">p = 1.175</th>
-<th style="text-align:center">BPIM における現定義</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/1.5/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/1.175/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-<td style="text-align:center"><img src="https://raw.githubusercontent.com/potakusan/powCoef_calc/master/plots/new/Amazing%20Mirage%E2%80%A0%5BA%5D.jpeg" alt=""></td>
-</tr>
-</tbody>
-</table>
-<h3 id="集計対象となる母数の変更">集計対象となる母数の変更</h3>
-<p>本来、 BPI 算出に用いる変数は次の 4 つです。</p>
+
+	<h3 id="20220402">2022/04/02</h3>
+<p>[定義ファイル] v20220402</p>
+<ol>
+<li>n/a[A] を除く収載済み全楽曲の全 1 、皆伝平均、譜面係数を更新しました。
+（データは2022年4月2日時点のものを使用しています）</li>
+<li>下記楽曲について追加・削除を反映しました（反映し忘れです）
 <ul>
-<li>その曲の自分のスコア(=s)</li>
-<li>その曲の皆伝平均(=k)</li>
-<li>その曲の歴代全一(=z)</li>
-<li>その曲の理論値(=m)</li>
+<li>☆11 Ocean Blue feat. Luschel[A] (削除)</li>
+<li>☆12 REVOLVER[L] (追加)</li>
+<li>☆12 NEW GENERATION -もう、お前しか見えない-<a href="%E8%BF%BD%E5%8A%A0">L</a></li>
 </ul>
-<p>上記の k 値について、 BPIManager では、全皆伝プレイヤーにアリーナランク上位 5000 名を加えた集合の平均を採用しています。<br>
-本来 BPI 算出の対象となって然るべきプレイヤーが皆伝を取得していないケースが非常に多いため、それに対応するための措置となっています。<br>
-全皆伝プレイヤーおよびアリーナランク上位 5000 名のスコアデータは eAMUSEMENT サイトよりスクレイピングしたものを利用しており、個別設定でスコアデータを非公開にしているプレイヤーは算出対象に含まれていません。</p>
-<h3 id="総合-bpi-の算出方式">総合 BPI の算出方式</h3>
-<p>総合 BPI の算出における、未プレイ楽曲の取り扱いは norimiso 様提唱の原定義においても不定となっております。<br>
-そのため BPIManager の独自実装として、総合 BPI の算出において未プレイ楽曲は BPI = -15 として取り扱っています。<br>
-詳細は下記リンクをご確認ください。<br>
-<a href="https://github.com/BPIManager/BPIManager-Core/pull/5">https://github.com/BPIManager/BPIManager-Core/pull/5</a></p>
+</li>
+</ol>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -1354,6 +1312,8 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
                 
                     
+                        
+                        
                     
                 
                 
@@ -1367,7 +1327,6 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
             
                 
-                    
                     
                 
                 
@@ -1384,9 +1343,6 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1461,70 +1417,6 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
                         
             
@@ -1702,22 +1594,6 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1734,8 +1610,18 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
                     
 
                     
+                        
             
-        
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -1752,6 +1638,9 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
                     
                     
 
+                    
+            
+        
                     
                         
             
@@ -1804,6 +1693,9 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
         
                     
+            
+        
+                    
                         
             
             
@@ -1813,8 +1705,6 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
                 
 
                     
-                    
-                        
                     
                     
 
@@ -1845,10 +1735,14 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
 
                     
                     
-                        
-                    
                     
 
+                    
+            
+        
+                    
+            
+        
                     
                         
             
@@ -1870,6 +1764,77 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -2057,10 +2022,10 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
 	 
 	 
 		
-			<a class="nav nav-prev" href="/begin/" title="はじめての方へ"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/" title="アップデート"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/begin/aboutbpimanager/" title="BPIM のご利用方法" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/updates/202203/" title="2022年03月" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2093,4 +2058,3 @@ BPI = -100*(-ln(S&rsquo;)/ln(Z&rsquo;))^p (s &lt; k)</p>
 </script>
   </body>
 </html>
-
