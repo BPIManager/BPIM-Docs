@@ -340,14 +340,21 @@ IIDX公式サイトの CSV ダウンロードページの読み込みが完全�
       <description>BPIManager で利用しているオープンソースライブラリに関する情報です。
 Open-Source Packages material-ui Copyright (c) 2014 Call-Em-All
 The MIT License
-Dexie.js Copyright (c) dfahlander Apache License
-fast-deep-equal Copyright (c) epoberezkin The MIT License
-dayjs Copyright (c) iamkun The MIT License
-date-io Copyright (c) 2017 Dmitriy Kovalenko The MIT License
-material-ui-pickers Copyright (c) 2017 Dmitriy Kovalenko The MIT License
-react Copyright (c) Facebook The MIT License
-react-app-rewired Copyright (c) 2016 Tim Arney The MIT License
-react-dom Copyright (c) 2017 Tylor Steinberger The MIT License</description>
+Dexie.js Copyright (c) dfahlander
+Apache License
+fast-deep-equal Copyright (c) epoberezkin
+The MIT License
+dayjs Copyright (c) iamkun
+The MIT License
+date-io Copyright (c) 2017 Dmitriy Kovalenko
+The MIT License
+jdenticon Copyright (c) 2014-2021 Daniel Mester Pirttijarvi
+The MIT License
+material-ui-pickers Copyright (c) 2017 Dmitriy Kovalenko
+The MIT License
+react Copyright (c) Facebook
+The MIT License
+react-app-rewired Copyright (c) 2016 Tim Arney</description>
     </item>
     
     <item>

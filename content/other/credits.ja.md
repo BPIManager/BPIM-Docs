@@ -13,88 +13,126 @@ The MIT License
 
 ### Dexie.js
 
-Copyright (c) dfahlander
+Copyright (c) dfahlander  
 Apache License
 
 ### fast-deep-equal
 
-Copyright (c) epoberezkin
+Copyright (c) epoberezkin  
 The MIT License
 
 ### dayjs 
 
-Copyright (c) iamkun
+Copyright (c) iamkun  
 The MIT License
 
 ### date-io 
 
-Copyright (c) 2017 Dmitriy Kovalenko
+Copyright (c) 2017 Dmitriy Kovalenko  
+The MIT License
+
+### jdenticon 
+
+Copyright (c) 2014-2021 Daniel Mester Pirttijarvi  
 The MIT License
 
 ### material-ui-pickers
 
-Copyright (c) 2017 Dmitriy Kovalenko
+Copyright (c) 2017 Dmitriy Kovalenko  
 The MIT License
 
 ### react 
 
-Copyright (c) Facebook 
+Copyright (c) Facebook  
 The MIT License
 
 ### react-app-rewired
 
-Copyright (c) 2016 Tim Arney
+Copyright (c) 2016 Tim Arney  
 The MIT License
 
 ### react-dom
 
-Copyright (c) 2017 Tylor Steinberger
+Copyright (c) 2017 Tylor Steinberger  
 The MIT License
 
 ### react-router
 
-Copyright (c) React Training 2016-2018
+Copyright (c) React Training 2016-2018  
 The MIT License
 
 ### react-share
 
-Copyright (c) Klaus Nygard
+Copyright (c) Klaus Nygard  
 The MIT License
 
 ### react-intl
 
-Copyright (c) Yahoo!
+Copyright (c) Yahoo!  
 BSD License
 
 ### recharts 
 
-Copyright (c) recharts 
+Copyright (c) recharts  
 The MIT License
 
 ### typescript 
 
-Copyright (c) Microsoft 
+Copyright (c) Microsoft  
 Apache License
 
 ### unstated 
 
-Copyright (c) James Kyle
+Copyright (c) James Kyle  
 The MIT License
 
 ### react-google-recaptcha
 
-Copyright (c) Hugo Dozois
+Copyright (c) Hugo Dozois  
 The MIT License
 
 ### react-helmet
 
-Copyright (c) 2015 NFL
+Copyright (c) 2015 NFL  
+The MIT License
+
+### react-calendar-heatmap
+
+Copyright (c) 2016 PatientsLikeMe, Inc.  
+The MIT License
+
+### react-infinite-scroller
+
+Copyright (c) 2016 Dan Bovey  
+Copyright (c) 2013 guillaumervls  
+The MIT License
+
+### react-swipeable-views
+
+Copyright (c) 2015 Olivier Tassinari  
+The MIT License
+
+### react-time-ago
+
+Copyright (c) 2016 @catamphetamine <purecatamphetamine@gmail.com>  
+The MIT License
+
+### react-tooltip
+
+Copyright (c) 2015 Wang Zixiao  
+The MIT License
+
+### react-webcam
+
+Copyright (c) 2018 Moz Morris  
+The MIT License
+
+### html2canvas
+
+Copyright (c) 2012 Niklas von Hertzen  
 The MIT License
 
 ------
-
-Services used in BPIManager:
-[TinyGraphs](https://www.tinygraphs.com/)
 
 ## License Texts
 
