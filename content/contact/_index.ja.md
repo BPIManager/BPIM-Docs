@@ -1,3 +1,4 @@
+
 ---
 title: お問い合わせ
 weight: 20
@@ -10,13 +11,11 @@ BPIManager のご利用に関するご要望やお問い合わせについて、
 
 ## 機能の要望・不具合報告
 
-下記フォームよりお問い合わせください。  
-ご要望は可能な限り実装しておりますが、技術的成約などによりお応えできない場合もございます。予めご承知おきください。
+下記URLより BPIManager/BPIManager-Core(GitHub) にて Issue を作成してください。  
 
-{{% button href="https://docs.google.com/forms/d/e/1FAIpQLScoOOBWeytFTF-g3Pfa6TVGYgcvLOQ-pVT8YbOYm6lGww16Mw/viewform?usp=sf_link" %}}機能要望フォーム{{% /button %}}
+[https://github.com/BPIManager/BPIManager-Core/issues/](https://github.com/BPIManager/BPIManager-Core/issues/)
 
-フォームの形式にそぐわないお問い合わせ、または火急のお問い合わせの場合、メールまたは Twitter の DM によるお問い合わせを承っています。  
-下記「アカウントの停止・削除」と同様のアドレスまでご相談ください。
+GitHub アカウントをお持ちでない場合、[@BPIManager](https://twitter.com/BPIManager)へDMまたはリプライでお問い合わせください。
 
 ## アカウントの停止・削除
 
