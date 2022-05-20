@@ -6,11 +6,11 @@
   </url><url>
     <loc>/docs/imports/csv/</loc>
   </url><url>
-    <loc>/begin/</loc>
+    <loc>/docs/imports/</loc>
   </url><url>
     <loc>/docs/manage/compare/</loc>
   </url><url>
-    <loc>/docs/imports/</loc>
+    <loc>/begin/</loc>
   </url><url>
     <loc>/tos/1privacypolicy/</loc>
   </url><url>
@@ -48,19 +48,21 @@
   </url><url>
     <loc>/docs/social/sync/</loc>
   </url><url>
-    <loc>/docs/</loc>
-  </url><url>
     <loc>/tos/</loc>
+  </url><url>
+    <loc>/docs/</loc>
   </url><url>
     <loc>/docs/settings/</loc>
   </url><url>
     <loc>/other/rank/</loc>
   </url><url>
-    <loc>/contact/</loc>
-  </url><url>
     <loc>/other/updates/</loc>
   </url><url>
+    <loc>/contact/</loc>
+  </url><url>
     <loc>/other/</loc>
+  </url><url>
+    <loc>/other/updates/202205/</loc>
   </url><url>
     <loc>/other/updates/202204/</loc>
   </url><url>
@@ -82,14 +84,14 @@
   </url><url>
     <loc>/tags/</loc>
   </url><url>
-    <loc>/other/faq/</loc>
-  </url><url>
     <loc>/other/credits/</loc>
   </url><url>
-    <loc>/tos/0tos/</loc>
+    <loc>/other/faq/</loc>
+  </url><url>
+    <loc>/other/repositories/</loc>
   </url><url>
     <loc>/other/def/</loc>
   </url><url>
-    <loc>/other/repositories/</loc>
+    <loc>/tos/0tos/</loc>
   </url>
 </urlset>

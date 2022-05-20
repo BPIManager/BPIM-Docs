@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>BPIMRanks API  -  BPIManager Docs</title>
+    <title>2022年05月  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1653054058" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/other/rank/">
+  <body class="" data-url="/other/updates/202205/">
     <nav id="sidebar" class="">
 
 
@@ -805,8 +805,8 @@
   
     
     <li data-nav-id="/other/rank/" title="BPIMRanks API" class="dd-item
-        parent
-        active
+        
+        
         
         ">
       <a href="/other/rank/">
@@ -831,7 +831,7 @@
   
     
     <li data-nav-id="/other/updates/" title="アップデート" class="dd-item
-        
+        parent
         
         
         ">
@@ -860,8 +860,8 @@
   
     
     <li data-nav-id="/other/updates/202205/" title="2022年05月" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/other/updates/202205/">
@@ -1208,7 +1208,13 @@
             
           
           
-            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > BPIMRanks API
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > <a href='/other/updates/'>アップデート</a> > 2022年05月
+          
+        
           
         
           
@@ -1223,15 +1229,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#はじめに">はじめに</a></li>
-    <li><a href="#基本">基本</a>
+    <li>
       <ul>
-        <li></li>
-      </ul>
-    </li>
-    <li><a href="#楽曲">楽曲</a>
-      <ul>
-        <li></li>
+        <li><a href="#20220520">2022/05/20</a></li>
       </ul>
     </li>
   </ul>
@@ -1251,7 +1251,7 @@
           
             <h1>
               
-              BPIMRanks API
+              2022年05月
             </h1>
           
 
@@ -1259,63 +1259,16 @@
 
 
 
-	<h2 id="はじめに">はじめに</h2>
-<p>BPIMRanks API は、 BPIManager に蓄積されたデータを表示・集計する API です。<br>
-データは個人利用に限り、自由にご活用ください。</p>
-<p><strong>このページは書きかけです</strong></p>
-<h2 id="基本">基本</h2>
-<ul>
-<li>
-<p>ベースURL</p>
-<p><a href="https://proxy.poyashi.me/bpim/api/v1/">https://proxy.poyashi.me/bpim/api/v1/</a></p>
-</li>
-<li>
-<p>使用制限 : 現在、ご利用にあたり認証の必要やレートリミットは設定がありません。</p>
-</li>
-</ul>
-<h4 id="レスポンス形式">レスポンス形式</h4>
-<pre tabindex="0"><code>{
-	&#34;error&#34;: false, // リクエストにエラーが含まれる場合に true
-	&#34;maintenance&#34;: false, // 定時メンテナンス時のみ true
-	&#34;time&#34;: &#34;20220131024953&#34;, // リクエストを処理した時点でのサーバー時間
-	&#34;body&#34;: [], // Response Body
-	&#34;meta&#34;: {
-		&#34;idx&#34;: &#34;49&#34;,
-		&#34;latestVersion&#34;: &#34;29&#34;, // サーバーに設定された最新のIIDXバージョン
-		&#34;updatedAt&#34;: &#34;2022-01-31 03:16:36&#34; // 最後にデータが更新された時刻
-	}
-}
-</code></pre><h2 id="楽曲">楽曲</h2>
-<h4 id="get-songslist-examplehttpsproxypoyashimebpimapiv1songslistlevel12store29offset0limit10withplayersum1">GET /songs/list (<a href="https://proxy.poyashi.me/bpim/api/v1/songs/list?level=12&amp;store=29&amp;offset=0&amp;limit=10&amp;withPlayerSum=1">Example</a>)</h4>
-<h5 id="queries">Queries</h5>
-<ul>
-<li>level:&ldquo;11&rdquo;|&ldquo;12&rdquo; 集計対象の楽曲レベル</li>
-<li>store:&ldquo;28&rdquo;|&ldquo;29&rdquo; 集計対象のIIDXバージョン(28 BISTROVER または 29 CastHour のみ)</li>
-<li>offset:Number オフセットを指定</li>
-<li>limit:Number 表示件数を指定</li>
-<li>withPlayerSum?:boolean プレイヤー総数をデータに含む場合はクエリに含める　それ以外の場合はクエリを含めない</li>
-</ul>
-<p>Notes</p>
-<ul>
-<li>withPlayerSum オプションを使用するとクエリが大変遅くなります。</li>
-</ul>
-<p>Body</p>
-<ul>
-<li>レスポンス内 body は下記 Object の配列が返却されます。</li>
-</ul>
-<pre tabindex="0"><code>{
-		&#34;uid&#34;: &#34;JZOB00HuSfbYd7jPM7A1T7KsPVJ3&#34;, // 1 位プレイヤーの uid
-		&#34;title&#34;: &#34;-65\u2103&#34;, // 楽曲名
-		&#34;difficulty&#34;: &#34;another&#34;, //楽曲難易度 (hyper,another,leggendaria)
-		&#34;difficultyLevel&#34;: &#34;12&#34;, //楽曲難易度 (12 段階表記)
-		&#34;exScore&#34;: &#34;3768&#34;, // 1位プレイヤーの EX スコア
-		&#34;bpi&#34;: &#34;112&#34;, // 1位プレイヤーの BPI
-		&#34;displayName&#34;: &#34;SEIRYU&#34;, // 1位プレイヤーのユーザー名(非公開プレイヤーの場合 null )
-		&#34;photoURL&#34;: &#34;https:\/\/pbs.twimg.com\/profile_images\/1395372542181871617\/zqCeVHNS_normal.jpg&#34;, // 1位プレイヤーのプロフィール画像(非公開プレイヤーの場合 null )
-		&#34;updatedAt&#34;: &#34;2021-10-21 22:42:00&#34;, // 1位プレイヤーの更新日時
-		&#34;playerSum&#34;: &#34;566&#34; // プレイヤー総数 (withPlayerSum オプション使用時のみ)
-}, ...
-</code></pre>
+	<h3 id="20220520">2022/05/20</h3>
+<p>[定義ファイル] v20220520</p>
+<ol>
+<li>PLATFORM 4 Beat Showcase の新曲を BPI 算出対応楽曲として追加しました。</li>
+</ol>
+<p>[本体] v-a8cbbe2-d86</p>
+<ol>
+<li>Burning Flame のスコアデータが正常に保存されない問題を修正しました。</li>
+</ol>
+
 
 
 
@@ -1824,6 +1777,41 @@
             
                 
                     
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
                     
                 
                 
@@ -1843,37 +1831,6 @@
                     
                         
                         
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -2061,10 +2018,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/other/" title="開発情報"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/" title="アップデート"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/other/updates/" title="アップデート" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/updates/202204/" title="2022年04月" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

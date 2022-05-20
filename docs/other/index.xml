@@ -7,18 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language><atom:link href="/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>よくある質問</title>
-      <link>/other/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/other/faq/</guid>
-      <description>BPIManager(BPIM) のご利用について、よくある質問をまとめました。
-こちらに質問事項が掲載されていない場合、お手数ですがお問い合わせよりご報告ください。
-データ関連 CSV インポート後、本来存在しないはずの楽曲・難易度が取り込みエラーに表示されている。 取り込もうとした CSV にデータ異常がある可能性があります。
-IIDX公式サイトの CSV ダウンロードページの読み込みが完全に終了したことを確認したのち、CSVをコピーし取り込みを行ってください。</description>
-    </item>
-    
-    <item>
       <title>クレジット</title>
       <link>/other/credits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,20 +33,15 @@ react-app-rewired Copyright (c) 2016 Tim Arney</description>
     </item>
     
     <item>
-      <title>定義ファイルの記述</title>
-      <link>/other/def/</link>
+      <title>よくある質問</title>
+      <link>/other/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/other/def/</guid>
-      <description>BPIM では、カスタム定義ファイルを作成しアプリケーション上で利用できます。
-定義ファイルの仕様について BPIM では楽曲に関する一連のデータを定義ファイルと称するファイルにまとめて公開しています。
-このファイルはJSONで記述されています。
-公式定義ファイル BPIM が公式で用意している定義ファイルは、下記 URL から確認できます。
-https://proxy.poyashi.me/?type=bpi
-リポジトリ : https://github.com/potakusan/bpim-score-repo
-仕組み JSONの仕組みは次のようになっています。
-{&amp;quot;version&amp;quot;:&amp;quot;20191109&amp;quot;, //定義データのバージョン名&amp;quot;requireVersion&amp;quot;:&amp;quot;8&amp;quot;, //要求するBPIManager本体のバージョン(例:v0.0.0.8ならば8,v0.0.2.0ならば20)&amp;quot;body&amp;quot;:[{ &amp;quot;title&amp;quot;: &amp;quot;(This Is Not) The Angels&amp;quot;, //楽曲名&amp;quot;difficulty&amp;quot;: &amp;quot;4&amp;quot;, //楽曲難易度(詳細は下)&amp;quot;wr&amp;quot;: &amp;quot;2716&amp;quot;, //歴代1位&amp;quot;avg&amp;quot;: &amp;quot;2398&amp;quot;, //皆伝平均&amp;quot;notes&amp;quot;: &amp;quot;1364&amp;quot;, //ノート数&amp;quot;bpm&amp;quot;: &amp;quot;33-130&amp;quot;, //BPM&amp;quot;textage&amp;quot;: &amp;quot;24/theangel.html?1AB00&amp;quot;, //TexTageのURL&amp;quot;difficultyLevel&amp;quot;: &amp;quot;11&amp;quot;, //楽曲難易度(詳細は下)&amp;quot;dpLevel&amp;quot;: &amp;quot;0&amp;quot;, //DP非公式難易度&amp;quot;coef&amp;quot;: -1, //譜面係数},...]} 型について JSONに記述する定義データの型は次のようにします。
-   キー バリュー 備考     title String 楽曲名   difficulty &amp;ldquo;3&amp;rdquo;|&amp;ldquo;4&amp;rdquo;|&amp;ldquo;8&amp;rdquo;|&amp;ldquo;9&amp;rdquo;|&amp;ldquo;10&amp;rdquo;|&amp;ldquo;11&amp;rdquo; 楽曲難易度(下記参照)   difficultyLevel &amp;ldquo;11&amp;rdquo;|&amp;ldquo;12&amp;rdquo; ゲーム内楽曲難易度   wr String|Number 全1スコア   avg String|Number 皆伝平均   notes String|Number 楽曲総ノート数   bpm String BPM</description>
+      <guid>/other/faq/</guid>
+      <description>BPIManager(BPIM) のご利用について、よくある質問をまとめました。
+こちらに質問事項が掲載されていない場合、お手数ですがお問い合わせよりご報告ください。
+データ関連 CSV インポート後、本来存在しないはずの楽曲・難易度が取り込みエラーに表示されている。 取り込もうとした CSV にデータ異常がある可能性があります。
+IIDX公式サイトの CSV ダウンロードページの読み込みが完全に終了したことを確認したのち、CSVをコピーし取り込みを行ってください。</description>
     </item>
     
     <item>
@@ -86,6 +69,23 @@ beatmania IIDX 公式サイトより、皆伝およびアリーナランク上�
 定義ファイルを読み込むための CORS 制限設定が解除されたプロキシサーバーです。 リクエストメソッドはすべて GET です。
 また、指定した Twitter ユーザーの最新のアイコンを取得するためのスクリプトが実装されています。
  アイコン指定例 : https://proxy.poyashi.me/img?screen_name=R1muru_Temp3st&amp;amp;size=original BPIM 定義ファイル取得 : https://proxy.poyashi.me/?type=bpi BPIM 定義ファイルメタデータ取得 : https://proxy.poyashi.me/?type=bpiVersion  </description>
+    </item>
+    
+    <item>
+      <title>定義ファイルの記述</title>
+      <link>/other/def/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/other/def/</guid>
+      <description>BPIM では、カスタム定義ファイルを作成しアプリケーション上で利用できます。
+定義ファイルの仕様について BPIM では楽曲に関する一連のデータを定義ファイルと称するファイルにまとめて公開しています。
+このファイルはJSONで記述されています。
+公式定義ファイル BPIM が公式で用意している定義ファイルは、下記 URL から確認できます。
+https://proxy.poyashi.me/?type=bpi
+リポジトリ : https://github.com/potakusan/bpim-score-repo
+仕組み JSONの仕組みは次のようになっています。
+{&amp;quot;version&amp;quot;:&amp;quot;20191109&amp;quot;, //定義データのバージョン名&amp;quot;requireVersion&amp;quot;:&amp;quot;8&amp;quot;, //要求するBPIManager本体のバージョン(例:v0.0.0.8ならば8,v0.0.2.0ならば20)&amp;quot;body&amp;quot;:[{ &amp;quot;title&amp;quot;: &amp;quot;(This Is Not) The Angels&amp;quot;, //楽曲名&amp;quot;difficulty&amp;quot;: &amp;quot;4&amp;quot;, //楽曲難易度(詳細は下)&amp;quot;wr&amp;quot;: &amp;quot;2716&amp;quot;, //歴代1位&amp;quot;avg&amp;quot;: &amp;quot;2398&amp;quot;, //皆伝平均&amp;quot;notes&amp;quot;: &amp;quot;1364&amp;quot;, //ノート数&amp;quot;bpm&amp;quot;: &amp;quot;33-130&amp;quot;, //BPM&amp;quot;textage&amp;quot;: &amp;quot;24/theangel.html?1AB00&amp;quot;, //TexTageのURL&amp;quot;difficultyLevel&amp;quot;: &amp;quot;11&amp;quot;, //楽曲難易度(詳細は下)&amp;quot;dpLevel&amp;quot;: &amp;quot;0&amp;quot;, //DP非公式難易度&amp;quot;coef&amp;quot;: -1, //譜面係数},...]} 型について JSONに記述する定義データの型は次のようにします。
+   キー バリュー 備考     title String 楽曲名   difficulty &amp;ldquo;3&amp;rdquo;|&amp;ldquo;4&amp;rdquo;|&amp;ldquo;8&amp;rdquo;|&amp;ldquo;9&amp;rdquo;|&amp;ldquo;10&amp;rdquo;|&amp;ldquo;11&amp;rdquo; 楽曲難易度(下記参照)   difficultyLevel &amp;ldquo;11&amp;rdquo;|&amp;ldquo;12&amp;rdquo; ゲーム内楽曲難易度   wr String|Number 全1スコア   avg String|Number 皆伝平均   notes String|Number 楽曲総ノート数   bpm String BPM</description>
     </item>
     
   </channel>
