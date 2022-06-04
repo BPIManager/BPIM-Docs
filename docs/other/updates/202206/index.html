@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>アプリ設定  -  BPIManager Docs</title>
+    <title>2022年06月  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1654355981" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/docs/settings/">
+  <body class="" data-url="/other/updates/202206/">
     <nav id="sidebar" class="">
 
 
@@ -257,7 +257,7 @@
   
     
     <li data-nav-id="/docs/" title="利用マニュアル" class="dd-item
-        parent
+        
         
         
         ">
@@ -723,7 +723,7 @@
  
   
     
-      <li data-nav-id="/docs/settings/" title="アプリ設定" class="dd-item active">
+      <li data-nav-id="/docs/settings/" title="アプリ設定" class="dd-item ">
         <a href="/docs/settings/">
         アプリ設定
         
@@ -776,7 +776,7 @@
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -831,7 +831,7 @@
   
     
     <li data-nav-id="/other/updates/" title="アップデート" class="dd-item
-        
+        parent
         
         
         ">
@@ -886,8 +886,8 @@
   
     
     <li data-nav-id="/other/updates/202206/" title="2022年06月" class="dd-item
-        
-        
+        parent
+        active
         
         ">
       <a href="/other/updates/202206/">
@@ -1234,7 +1234,13 @@
             
           
           
-            <a href='/'>Home</a> > <a href='/docs/'>利用マニュアル</a> > アプリ設定
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > <a href='/other/updates/'>アップデート</a> > 2022年06月
+          
+        
           
         
           
@@ -1249,15 +1255,11 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#基本">基本</a>
+    <li>
       <ul>
-        <li><a href="#定義データの更新">定義データの更新</a></li>
-        <li><a href="#キャッシュクリア">キャッシュクリア</a></li>
+        <li><a href="#20220604">2022/06/04</a></li>
       </ul>
     </li>
-    <li><a href="#表示">表示</a></li>
-    <li><a href="#その他">その他</a></li>
-    <li><a href="#デバッグ情報">デバッグ情報</a></li>
   </ul>
 </nav>
     </div>
@@ -1275,54 +1277,26 @@
           
             <h1>
               
-              アプリ設定
+              2022年06月
             </h1>
           
 
         
 
 
-<p>BPIM の設定項目に関する説明です。</p>
-<p>設定項目はカテゴリごとに「基本」「表示」「その他」の 3 種に分類されています。</p>
-<h2 id="基本">基本</h2>
+
+	<h3 id="20220604">2022/06/04</h3>
+<p>[定義ファイル] v20220604</p>
 <ul>
-<li>Language : UI の言語を指定します。</li>
-<li>テーマ : UI のカラーリングを指定します。</li>
-<li>バージョン : データ保存先の IIDX バージョンを指定します。</li>
-<li>Auto-sync : データ取り込みページから CSV またはブックマークレットでスコアをインポートした際、自動的にクラウドにデータを同期します。</li>
-<li>DP モード ( beta ) : ダブルプレイのスコアを登録します。</li>
-<li>目標 BPI / 目標 パーセンテージ : 「データ比較」画面で当該 BPI および スコアレートに相当する EX スコアを比較対象として選択できます。</li>
-<li>地域 : 楽曲詳細画面から指定した地域の TOP RANKER ページを開くことができるようになります。</li>
+<li>☆11 Bahram Attack-猫叉 Master Remix- がリスト上に存在しない問題を修正しました。
+当該楽曲の BPI は 2022 年 4 月 2 日時点の皆伝平均および全 1 スコアをもとに算出されます。</li>
 </ul>
-<h3 id="定義データの更新">定義データの更新</h3>
-<p>BPIM で用いる全 1 スコアおよび皆伝平均などが含まれるファイル ( 定義データ ) を更新します。<br>
-最新の定義データのインポートには最新版の BPIM をご利用いただく必要があります。</p>
-<h3 id="キャッシュクリア">キャッシュクリア</h3>
-<p>BPIM 本体のキャッシュを削除します。<br>
-BPIM は自動でバージョンアップデートを行いますが、まれに機種依存で自動更新が適用されない場合があります。<br>
-そうした場合は、キャッシュを削除した上で BPIM を再起動すると最新バージョンにアップデートできます。</p>
-<h2 id="表示">表示</h2>
-<ul>
-<li>楽曲リスト / 補助表示 : 楽曲一覧にて表示する内容を選択します。</li>
-<li>楽曲リスト / BPI 非対応曲の表示 : BPI 算出に対応していない楽曲(最新楽曲が該当します)を楽曲一覧に表示します。
-<ul>
-<li>この機能をオフにしていても、内部的にスコアは記録され続けます。</li>
-</ul>
-</li>
-<li>クイックアクセス : トップページ「クイックアクセス」に表示するリンクを設定します。</li>
-</ul>
-<h2 id="その他">その他</h2>
-<ul>
-<li>従来の計算方式を利用 : BPI 算出において譜面係数を 1.5 に固定します。</li>
-<li>データリセット : 選択したデータベースに登録されている内容をすべて削除します。</li>
-<li>エクスポート : 設定中のバージョンに登録されたスコアデータを CSV 形式で書き出します。</li>
-</ul>
-<h2 id="デバッグ情報">デバッグ情報</h2>
-<p>アプリケーションのデバッグ情報を表示します。</p>
-<p>BPIM ご利用中の不具合を報告する際、この画面に表示されている内容を必要に応じて開発者へお伝え下さい。</p>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -1472,7 +1446,6 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
             
                 
                     
-                    
                 
                 
 
@@ -1487,9 +1460,6 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1779,7 +1749,6 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
             
                 
                     
-                    
                 
                 
 
@@ -1790,87 +1759,6 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
                     
             
         
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
             
         
@@ -1895,6 +1783,96 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
             
             
                 
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
                     
                 
                 
@@ -2082,10 +2060,10 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/social/sync/" title="BPIM アカウントの管理(Sync)"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/202205/" title="2022年05月"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/contact/" title="お問い合わせ" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/updates/202204/" title="2022年04月" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2118,4 +2096,3 @@ BPIM は自動でバージョンアップデートを行いますが、まれに
 </script>
   </body>
 </html>
-

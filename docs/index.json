@@ -217,6 +217,13 @@
 	"content": "2022/05/20 [定義ファイル] v20220520\n PLATFORM 4 Beat Showcase の新曲を BPI 算出対応楽曲として追加しました。  [本体] v-a8cbbe2-d86\n Burning Flame のスコアデータが正常に保存されない問題を修正しました。  "
 },
 {
+	"uri": "/other/updates/202206/",
+	"title": "2022年06月",
+	"tags": [],
+	"description": "",
+	"content": "2022/06/04 [定義ファイル] v20220604\n ☆11 Bahram Attack-猫叉 Master Remix- がリスト上に存在しない問題を修正しました。 当該楽曲の BPI は 2022 年 4 月 2 日時点の皆伝平均および全 1 スコアをもとに算出されます。  "
+},
+{
 	"uri": "/other/updates/202204/",
 	"title": "2022年04月",
 	"tags": [],
