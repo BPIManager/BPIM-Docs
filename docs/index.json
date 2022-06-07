@@ -221,7 +221,7 @@
 	"title": "2022年06月",
 	"tags": [],
 	"description": "",
-	"content": "2022/06/04 [定義ファイル] v20220604\n ☆11 Bahram Attack-猫叉 Master Remix- がリスト上に存在しない問題を修正しました。 当該楽曲の BPI は 2022 年 4 月 2 日時点の皆伝平均および全 1 スコアをもとに算出されます。 下記新規 ARENA MODE 解禁楽曲を BPI 算出非対応楽曲として追加しました。   WISE UP![SPL] Time to Air[SPL]  "
+	"content": "2022/06/07 [定義ファイル] v20220607\n 下記2楽曲について、BPIが正常に算出されない問題を修正しました。   Everlasting Message[SPA] (全1スコア更新漏れのため) Push on Beats!～音ゲの国のeX-ストリーマー～[SPA]（登載が早すぎたため、最新の全1、平均に修正）  2022/06/04 [定義ファイル] v20220604\n ☆11 Bahram Attack-猫叉 Master Remix- がリスト上に存在しない問題を修正しました。 当該楽曲の BPI は 2022 年 4 月 2 日時点の皆伝平均および全 1 スコアをもとに算出されます。 下記新規 ARENA MODE 解禁楽曲を BPI 算出非対応楽曲として追加しました。   WISE UP![SPL] Time to Air[SPL]  "
 },
 {
 	"uri": "/other/updates/202204/",
