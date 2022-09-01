@@ -210,6 +210,13 @@
 	"content": "開発情報 BPIManager の開発に関する事項を掲載しています。\nクレジット 関連リポジトリ 定義ファイルの記述 "
 },
 {
+	"uri": "/other/updates/202209/",
+	"title": "2022年09月",
+	"tags": [],
+	"description": "",
+	"content": "2022/09/01 [定義ファイル] v20220901\n新曲をBPI算出非対応楽曲として追加しました。\n ☆11 GIGANT[L] ☆12 GRAVITON[A]  データに誤り等発見された場合はお手数ですがお知らせ願います。\n"
+},
+{
 	"uri": "/other/updates/202207/",
 	"title": "2022年07月",
 	"tags": [],
@@ -217,18 +224,18 @@
 	"content": "2022/07/06 [定義ファイル] v20220706\n下記曲を除くすべての楽曲について、全1、皆伝平均、譜面係数を更新しました。\n ☆11 Divine Heaven[A] ☆11 Pout[A] ☆11 WISE UP![L] ☆12 RAGE feat.H14 of LEONAIR[A] ☆12 ピアノ独奏無言歌 \u0026quot;灰燼\u0026quot;[A]  ※ 楽曲登場から日にちが浅く、集計対象が確保できなかったため。\nまた、下記楽曲についてデータ修正を行いました。\n ☆12 Phoenix[L] - データ登載漏れ。BPI 算出可能な状態に修正しました。  すべての更新差分はこちらからご確認いただけます。\nデータに誤り等発見された場合はお手数ですがお知らせ願います。\n"
 },
 {
-	"uri": "/other/updates/202205/",
-	"title": "2022年05月",
-	"tags": [],
-	"description": "",
-	"content": "2022/05/20 [定義ファイル] v20220520\n PLATFORM 4 Beat Showcase の新曲を BPI 算出対応楽曲として追加しました。  [本体] v-a8cbbe2-d86\n Burning Flame のスコアデータが正常に保存されない問題を修正しました。  "
-},
-{
 	"uri": "/other/updates/202206/",
 	"title": "2022年06月",
 	"tags": [],
 	"description": "",
 	"content": "2022/06/07 [定義ファイル] v20220607\n 下記2楽曲について、BPIが正常に算出されない問題を修正しました。   Everlasting Message[SPA] (全1スコア更新漏れのため) Push on Beats!～音ゲの国のeX-ストリーマー～[SPA]（登載が早すぎたため、最新の全1、平均に修正）  2022/06/04 [定義ファイル] v20220604\n ☆11 Bahram Attack-猫叉 Master Remix- がリスト上に存在しない問題を修正しました。 当該楽曲の BPI は 2022 年 4 月 2 日時点の皆伝平均および全 1 スコアをもとに算出されます。 下記新規 ARENA MODE 解禁楽曲を BPI 算出非対応楽曲として追加しました。   WISE UP![SPL] Time to Air[SPL]  "
+},
+{
+	"uri": "/other/updates/202205/",
+	"title": "2022年05月",
+	"tags": [],
+	"description": "",
+	"content": "2022/05/20 [定義ファイル] v20220520\n PLATFORM 4 Beat Showcase の新曲を BPI 算出対応楽曲として追加しました。  [本体] v-a8cbbe2-d86\n Burning Flame のスコアデータが正常に保存されない問題を修正しました。  "
 },
 {
 	"uri": "/other/updates/202204/",
