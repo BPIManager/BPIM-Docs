@@ -1,4 +1,3 @@
-
 ---
 title: お問い合わせ
 weight: 20
@@ -11,16 +10,16 @@ BPIManager のご利用に関するご要望やお問い合わせについて、
 
 ## 機能の要望・不具合報告
 
-下記URLより BPIManager/BPIManager-Core(GitHub) にて Issue を作成してください。  
+下記 URL より BPIManager/BPIManager-Core(GitHub) にて Issue を作成してください。
 
 [https://github.com/BPIManager/BPIManager-Core/issues/](https://github.com/BPIManager/BPIManager-Core/issues/)
 
-GitHub アカウントをお持ちでない場合、[@BPIManager](https://twitter.com/BPIManager)へDMまたはリプライでお問い合わせください。
+GitHub アカウントをお持ちでない場合、[@BPIManager](https://twitter.com/BPIManager)へ DM またはリプライでお問い合わせください。
 
 ## アカウントの停止・削除
 
 BPIM アカウントの削除または停止をご希望の場合、メールまたは Twitter の DM でお問い合わせください。
 
-メール : msqkn310@gmail.com
+メール : admin@nyaa.ltd
 
 Twitter : [@BPIManager](https://twitter.com/BPIManager)
