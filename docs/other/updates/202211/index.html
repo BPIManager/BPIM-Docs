@@ -9,7 +9,7 @@
 
     <link rel="icon" href="/images/favicon.png" type="image/png">
 
-    <title>ブックマークレット(eAMUベーシック)  -  BPIManager Docs</title>
+    <title>2022年11月  -  BPIManager Docs</title>
 
     
     <link href="/css/nucleus.css?1668847944" rel="stylesheet">
@@ -37,7 +37,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/docs/imports/bookmarklet/">
+  <body class="" data-url="/other/updates/202211/">
     <nav id="sidebar" class="">
 
 
@@ -257,7 +257,7 @@
   
     
     <li data-nav-id="/docs/" title="利用マニュアル" class="dd-item
-        parent
+        
         
         
         ">
@@ -286,7 +286,7 @@
   
     
     <li data-nav-id="/docs/imports/" title="データ取り込み" class="dd-item
-        parent
+        
         
         
         ">
@@ -333,7 +333,7 @@
  
   
     
-      <li data-nav-id="/docs/imports/bookmarklet/" title="ブックマークレット(eAMUベーシック)" class="dd-item active">
+      <li data-nav-id="/docs/imports/bookmarklet/" title="ブックマークレット(eAMUベーシック)" class="dd-item ">
         <a href="/docs/imports/bookmarklet/">
         ブックマークレット(eAMUベーシック)
         
@@ -776,7 +776,7 @@
   
     
     <li data-nav-id="/other/" title="開発情報" class="dd-item
-        
+        parent
         
         
         ">
@@ -831,7 +831,7 @@
   
     
     <li data-nav-id="/other/updates/" title="アップデート" class="dd-item
-        
+        parent
         
         
         ">
@@ -861,7 +861,7 @@
     
     <li data-nav-id="/other/updates/202211/" title="2022年11月" class="dd-item
         
-        
+        active
         
         ">
       <a href="/other/updates/202211/">
@@ -1316,7 +1316,7 @@
             
           
           
-            <a href='/'>Home</a> > <a href='/docs/'>利用マニュアル</a> > <a href='/docs/imports/'>データ取り込み</a> > ブックマークレット(eAMUベーシック)
+            <a href='/'>Home</a> > <a href='/other/'>開発情報</a> > <a href='/other/updates/'>アップデート</a> > 2022年11月
           
         
           
@@ -1333,15 +1333,9 @@
     <div class="wrapper">
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#特徴">特徴</a>
+    <li>
       <ul>
-        <li><a href="#メリット">メリット</a></li>
-        <li><a href="#デメリット">デメリット</a></li>
-      </ul>
-    </li>
-    <li><a href="#手順">手順</a>
-      <ul>
-        <li><a href="#ご注意">ご注意</a></li>
+        <li><a href="#20221119">2022/11/19</a></li>
       </ul>
     </li>
   </ul>
@@ -1361,41 +1355,35 @@
           
             <h1>
               
-              ブックマークレット(eAMUベーシック)
+              2022年11月
             </h1>
           
 
         
 
 
-<p>beatmania IIDX 公式サイト上で BPIM 用ブックマークレットを実行し、 BPIM へスコアを登録する方法です。</p>
-<h2 id="特徴">特徴</h2>
-<h3 id="メリット">メリット</h3>
-<ul>
-<li>迅速に複数楽曲のスコアを登録いただけます。</li>
-<li>スコアと一緒にクリアランプをお取り込みいただけます。</li>
-</ul>
-<h3 id="デメリット">デメリット</h3>
-<ul>
-<li><a href="https://p.eagate.573.jp/payment/p/select_course.html?course=eaBASIC">eAMUSEMENT ベーシックコース</a>への加入が必要です。</li>
-<li>スコアの更新日時が、ブックマークレット実行日時となります。(正確な更新日時が反映されません)</li>
-</ul>
-<h2 id="手順">手順</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#a6e22e">javascript</span><span style="color:#f92672">:</span>(<span style="color:#66d9ef">function</span>() { <span style="color:#a6e22e">javascript</span><span style="color:#f92672">:</span> (<span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">d</span>, <span style="color:#a6e22e">s</span>) { <span style="color:#a6e22e">s</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">d</span>.<span style="color:#a6e22e">createElement</span>(<span style="color:#e6db74">&#39;script&#39;</span>); <span style="color:#a6e22e">s</span>.<span style="color:#a6e22e">src</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;https://files.poyashi.me/bpim/index.js?v=&#39;</span> <span style="color:#f92672">+</span> String(Math.<span style="color:#a6e22e">floor</span>(Math.<span style="color:#a6e22e">random</span>() <span style="color:#f92672">*</span> <span style="color:#ae81ff">10000000</span>)); <span style="color:#a6e22e">d</span>.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">appendChild</span>(<span style="color:#a6e22e">s</span>); })(document) })();
-</span></span></code></pre></div><ol>
-<li>上記ブックマークレットをお使いのブラウザに登録します。</li>
-<li><a href="https://p.eagate.573.jp/game/2dx/28/top/index.html">beatmania IIDX</a> 公式サイトを開き、ブックマークレットを実行します。</li>
-<li>データ取得完了後、自動的に <a href="https://bpi.poyashi.me/data">BPIM 取り込みページ</a> へ移動しデータのインポートが開始されます。</li>
+
+	<h3 id="20221119">2022/11/19</h3>
+<p>[定義ファイル] v20221119</p>
+<ol>
+<li>IIDX29 までの下記を除く全楽曲について、全 1、皆伝平均、譜面係数を更新しました。</li>
 </ol>
-<h3 id="ご注意">ご注意</h3>
+<p>更新できなかった曲（作者未解禁のため）:</p>
 <ul>
-<li>インポート用ブックマークレットは SP のスコア取り込みのみ対応しています。</li>
-<li>ブックマークレットを用いた場合、スコアの更新日時はブックマークレットの実行時刻になります。（実際のスコア更新時刻は反映されません）</li>
-<li>ミスカウントはインポートされません。</li>
+<li>☆11 10000 MILES AWAY[A]</li>
 </ul>
+<ol start="2">
+<li>IIDX30 新曲および上記楽曲について、BPI 算出非対応楽曲として追加しました。</li>
+<li>順位算出に用いる皆伝人口を最新のものに更新しました。（IIDX29 終了時点:5399 名）</li>
+</ol>
+<p>本定義ファイルの適用には BPIManager 本体バージョンを v-eb1bf99-d87 2022/11/19 JST 以降にアップデートしてください。<br>
+アップデートは BPIManager 起動時に自動的に適用されます。適用されない場合は設定画面からキャッシュクリアをお試しください。</p>
 
 
-<footer class="footline">
+
+
+
+<footer class=" footline" >
 	
 </footer>
 
@@ -1545,7 +1533,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1561,7 +1548,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1574,9 +1560,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1594,7 +1577,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -1610,9 +1592,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -1892,6 +1871,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1906,6 +1886,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1923,6 +1906,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1937,6 +1921,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -1953,6 +1938,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -2204,10 +2192,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/docs/imports/csv/" title="CSVインポート(eAMUプレミアム)"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/other/updates/" title="アップデート"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/docs/imports/texting/" title="手動入力" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/other/updates/202209/" title="2022年09月" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -2240,4 +2228,3 @@
 </script>
   </body>
 </html>
-
