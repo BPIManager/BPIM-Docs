@@ -18,8 +18,6 @@ GitHub アカウントをお持ちでない場合、[@BPIManager](https://twitte
 
 ## アカウントの停止・削除
 
-BPIM アカウントの削除または停止をご希望の場合、メールまたは Twitter の DM でお問い合わせください。
-
-メール : admin@nyaa.ltd
+BPIM アカウントの削除または停止をご希望の場合、Twitter の DM でお問い合わせください。
 
 Twitter : [@BPIManager](https://twitter.com/BPIManager)
