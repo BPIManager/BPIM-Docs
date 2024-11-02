@@ -11,7 +11,7 @@ IIDX31 EPOLIS 終了時のデータで定義データを更新しました。
 対象楽曲は EPOLIS 稼働終了時までに追加された楽曲全てです。  
 [更新前後の差分はこちらからご確認いただけます](https://github.com/BPIManager/BPIM-Scores/commit/4ea852022e08a98f15afe7af2e20668c64fc0a98)。
 
-\*データ提供は[R1NNE(@nn3_r1)](https://x.com/nn3_r1)さんにご協力頂きました!
+\*データ提供は[R1NNE(@nn3_r1)](https://x.com/nn3_r1)さんに、データチェックは[3TOIMO(@IIDX2356)](https://x.com/IIDX2356)さんにご協力頂きました!
 
 ※ 作者が弐寺ほぼ引退していますので、公式 CSV と楽曲名の整合性など、データの正確性の確認漏れがあるかもしれません。  
 曲の追加漏れ（インポート時、実行ログにエラーが出る）、BPI が異常に高く/低く出る、皆伝平均や全 1 の間違いがありましたら [@BPIManager](https://x.com/BPIManager) までリプライもしくは DM でお知らせ頂けますと助かります
